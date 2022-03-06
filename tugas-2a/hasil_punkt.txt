@@ -1,0 +1,1134 @@
+Teknologi adalah aplikasi praktis suatu pengetahuan, khususnya dalam suatu bidang tertentu.
+Teknologi berkembang semakin cepat dari waktu ke waktu karena penemuan satu teknologi baru dapat mempercepat penemuan teknologi berikutnya.
+Pada tanggal 19 Desember 2016, Bank Indonesia (BI) resmi meluncurkan 11 desain baru rupiah yang terdiri dari 7 pecahan uang kertas dan 4 pecahan uang logam.
+Rupiah kertas yang diterbitkan terdiri dari nominal Rp100.000, Rp50.000, Rp20.000, Rp10.000, Rp5.000, Rp2.000, dan Rp1.000.
+Sementara rupiah logam terdiri atas pecahan Rp1.000, Rp500, Rp200, dan Rp100.
+Desain uang baru ini sejalan dengan rencana Bank Indonesia menerbitkan uang Negara Kesatuan Republik Indonesia (NKRI).
+Hampir semua wajah pahlawan di uang tunai berganti, kecuali pecahan Rp100.000.
+Untuk memperingati ulang tahun Republik Indonesia ke-75, Bank Indonesia mengeluarkan uang komemoratif bertajuk Uang Peringatan Kemerdekaan dengan nominal Rp75.000.
+Uang ini diperkenalkan kepada publik pada tanggal 17 Agustus 2020 dan mulai bisa dipesan sejak 18 Agustus 2020 melalui pemesanan daring.
+Dalam sejarah peradaban manusia, terdapat banyak penemuan yang dapat menghasilkan teknologi yang berpengaruh besar terhadap kehidupan manusia.
+Perkembangan teknologi komputer dimulai dengan teknologi komputer analog.
+Penemuan cara representasi secara digital telah menyebabkan berkembangnya cara melakukan komputasi secara digital.
+Pada sistem digital, hanya dikenal dua keadaan yang biasanya disimbolkan dengan ‘0’ dan ‘1’.
+Penemuan transistor pada tahun 1948 oleh Shockley dan kawan-kawan di Bell Telephone Laboratories telah menyebabkan perubahan pada bentuk komputer selanjutnya.
+Tabung hampa mulai digantikan dengan transistor, sehingga dihasilkan komputer yang lebih kecil dimensinya serta konsumsi dayanya.
+Penemuan teknologi pembuatan IC (Integrated Circuit ) pada tahun 1960 telah memberikan perubahan yang besar pada perkembangan komputer.
+Pada awalnya, hanya sampai puluhan transistor dapat disimpan dalam satu IC.
+Kini, ratusan juta transistor dapat ditempatkan dalam satu keping IC.
+Bentuk lain perkembangan komputer saat ini adalah munculnya PDA ( Personal Digital Asistant).
+Pada prinsipnya bahasa alami adalah suatu bentuk representasi dari suatu pesan yang ingin dikomunikasikan antar manusia.
+Bentuk utama representasinya adalah berupa suara/ucapan (spoken language), tetapi sering pula dinyatakan dalam bentuk tulisan.
+Chomsky adalah orang yang pertama kali merepresentasikan bahasa sebagai rangkaian simbol.
+Chomsky berhasil memperlihatkan bahwa bahasa apapun dapat direpresentasikan dengan suatu cara yang universal.
+Dipandang dari sisi implementasi teknologinya, pemrosesan bahasa lisan dan tulisan adalah sangat berbeda.
+Bahasa lisan lebih banyak melakukan pemrosesan bunyi atau suara, sedangkan bahasa tulisan lebih banyak melakukan pemrosesan simbol-simbol tertulis.
+Sistem Speech Recognition atau Sistem Pengenalan Ucapan adalah sistem yang berfungsi untuk mengubah bahasa lisan menjadi bahasa tulisan.
+Penganalisis sintaks biasanya melakukan transformasi sinyal ucapan dari domain waktu ke domain frekuensi.
+Pada domain frekuensi, untuk kurun waktu yang singkat, setiap sinyal dapat terlihat memiliki ciri-ciri yang unik.
+Sistem yang lebih sederhana adalah sistem yang hanya dapat mengenal sejumlah kata yang jumlahnya terbatas.
+Sistem Speech Recognition biasanya dapat dioperasikan pada dua mode yang berbeda.
+Pertama adalah mode belajar.
+Kedua adalah mode produksi atau pengenalan ucapan.
+Pada mode ini, setiap kalimat yang ingin dikenali akan dianalisis polanya.
+Pada prinsipnya, teknik-teknik atau algoritma yang digunakan pada sistem Pengenal Ucapan tidak bersifat sensitif terhadap bahasa.
+Untuk melatih sistem Pengenal Ucapan agar dapat digunakan untuk suatu bahasa yang baru, maka diperlukan korpus untuk melatih sistem tersebut.
+Korpus yang dimaksud adalah berupa rekaman ucapan yang heterogen dalam volume yang sangat besar serta memenuhi kriteria teknis tertentu.
+Semakin besar korpus yang digunakan untuk melatih sistem, akan dihasilkan sistem Speech Recognition yang cenderung lebih handal.
+Sistem yang handal, paling tidak harus dilatih dengan ratusan rekaman pembicara.
+Secara fungsional, Text to Speech atau TTS melakukan proses sebaliknya dari sistem Pengenal Ucapan.
+Namun demikian pendekatan implementasinya sama sekali berbeda.
+Artinya, komponen-komponen pembentuk kedua sistem tersebut sama sekali berbeda.
+Pada dasarnya TTS adalah suatu sistem yang dapat menguba text menjadi ucapan.
+Pengucapan kata atau kalimat pada prinsipnya adalah urutan bunyi atau secara simbolik adalah urutan kode fonem.
+Setiap bahasa memiliki aturan cara pembacaan dan cara pengucapan teks yang sangat spesifik.
+Hal ini menyebabkan implementasi unit konverter teks ke fonem menjadi sangat spesifik terhadap suatu bahasa (language dependent).
+Bagian Konverter Fonem ke Ucapan akan menerima masukan kode-kode fonem serta pitch dan durasi yang telah dihasilkan oleh bagian sebelumnya.
+Berdasarkan kode-kode tersebut, bagian ini akan menghasilkan bunyi atau sinyal ucapan yang sesuai dengan kalimat yang ingin diucapkan.
+Ada beberapa alternatif teknik yang dapat digunakan untuk implementasi bagian konverter fonem ke ucapan.
+Dua teknik yang paling banyak digunakan adalah formant synthesizer, serta diphone concatenation.
+Saat ini, teknik kedua lebih banyak digunakan karena dapat menghasilkan ucapan dengan kualitas yang lebih alami.
+Teknik diphone concatenation melakukan pembangkitan ucapan dengan cara menggabung-gabungkan segmen-segmen bunyi yang berupa diphone (dua fonem).
+Untuk mencapai kualitas yang lebih tinggi, beberapa TTS menggunakan penggabungan segmen bunyi yang berupa multi-phone.
+Seperti telah dijelaskan sebelumnya bahwa bahasa dapat dibedakan menjadi bahasa alami dan bahasa buatan.
+Di lain pihak, bahasa alami tumbuh secara alami untuk memenuhi kebutuhan komunikasi antar manusia.
+Bahasa alami tidak dirancang dengan memperhatikan berbagai kendala untuk kemudahan pemrosesan.
+Sebagai akibatnya, pemrosesan bahasa alami jauh lebih sulit dilakukan dibandingkan dengan bahasa buatan.
+Bahkan, beberapa masalah mendasar dalam bahasa alami masih belum terpecahkan hingga kini.
+Pemrosesan bahasa alami tidak mudah dilakukan.
+Beberapa alasan yang menyulitkan pemrosesan bahasa alami diantaranya adalah sebagai berikut.
+Karakteristik-karakteristik tersebut menyebabkan sulitnya melakukan pemrosesan bahasa alami.
+Manusia sendiri menghadapi masalah ambiguitas tersebut berdasarkan analisis konteks yang didukung pengetahuan yang dimiliki di dalam otaknya.
+Mesin atau komputer yang tidak dilengkapi pengetahuan seperti itu menjadi sulit melakukannya.
+Jika NLP diterapkan untuk aplikasi bahasa lisan, kesulitan lainnya mungkin terjadi.
+Dalam bahasa lisan, manusia sangat sering membentuk ucapan yang tidak sesuai dengan aturan-aturan yang berlaku dalam bahasa yang digunakan.
+Sistem ini biasanya mempunyai masukan dan keluaram berupa bahasa tulisan (teks).
+NLP mempunyai aplikasi yang sangat luas.
+Beberapa diantara berbagai kategori aplikasi NLP adalah sebagai berikut.
+Translator bahasa alami bukan hanya kamus yang menerjemahkan kata per kata, tetapi harus juga mentranslasikan sintaks dari bahasa asal ke bahasa tujuannya.
+Sebagai contoh, translator yang memungkinkan kita memberikan perintah bahasa alami kepada komputer.
+Text Summarization , yaitu suatu sistem yang dapat ”membuat ringkasan” hal-hal yang penting dari suatu wacana yang diberikan.
+Banyak manfaat yang dapat dicapai dari ketersediaan Aplikasi Teknologi Bahasa, khususnya untuk Bahasa Indonesia.
+Berikut ini adalah beberapa contoh aplikasi yang dapat dikembangkan menggunakan teknologi bahasa.
+Alat bantu membaca untuk tunanetra.
+Alat bantu membaca bagi tunanetra mempunyai masukan berupa teks tercetak (misalnya buku) dan mempunyai keluaran berupa ucapan dari teks tercetak yang diberikan.
+Dengan alat bantu ini, orang tunanetra dapat membaca suatu buku atau dokumen.
+Alat bantu membaca bagi tunawicara mempunyai masukan posisi tangan yang dideteksi oleh suatu sensor dan unit identifikasi.
+Rangkaian huruf yang diidentifikasikan akan disusun membentuk suatu kata yang pada akhirnya akan diumpankan pada bagian TTS.
+Bagian pertama, speech recognition, berfungsi untuk mengenali rangkaian kata dari bahasa sumbermenjadi teks dalam bahasa sumber.
+Bagian berikutnya adalah translator teks ke teks.
+Hasil bagian kedua ini adalah kalimat bahasa tujuan yang masih berupa teks.
+Bagian ketiga berupa sistem TTS dalam bahasa tujuan.
+Aplikasi seperti ini mungkin untuk dikembangkan, karena teknologi speech recognition sudah banyak dikembangkan.
+Translator bahasa pun sudah banyak dikembangkan, termasuk translator Bahasa Inggris ke Indonesia.
+TTS juga dapat digunakan untuk konversi dari SMS ( Short Message System) ke ucapan sehingga pesan SMS dapat didengar.
+Dengan demikian memungkinkan untuk mendengar pesan SMS sambil melakukan aktivitas yang menyulitkan untuk membacanya, seperti sedang mengendarai mobil.
+Dengan TTS tersebut, memungkinkan pula untuk meneruskan pesan SMS ke sistem telepon biasa (PSTN).
+Speech Recognition memungkinkan pencarian informasi secara lisan.
+Penelitian di bidang ini di Departemen Teknik Elektro ITB telah dilakukan sejak lebih dari 10 tahun yang lalu.
+Untuk dapat menghasilkan intonasi yang baik, TTS tersebut dilengkapi dengan model intonasi bahasa Indonesia didalamnya.
+Model intonasi tersebut dikembangkan khusus untuk TTS tersebut karena sebelumnya, belum ada model intonasi bahasa Indonesia yang pernah dikembangkan.
+Saat ini sedang dilakukan pengembangan translator multi bahasa di Departemen Teknik Elektro ITB.
+Saat ini, pengembangan aplikasi translator speech to speech antara Bahasa Inggris dan Bahasa Indonesia sudah mulai dilakukan pula.
+Teknologi ini dapat digunakan untuk berbagai aplikasi, mulai dari aplikasi bisnis, pendidikan, kemanusiaan, bahkan pelestarian budaya.
+Salah satu angkatan alumni Elektro ITB juga telah membantu pengembangan alat bantu akses informasi untuk tuna netra.
+Untuk aplikasi pelestarian budaya, saat ini di Departemen Teknik Elektro sedang dicoba dikembangkan translator Bahasa Indonesia ke Bahasa Daerah.
+Ketersediaan data-data linguistik serta hasil penelitian linguistik akan sangat menunjang pengembangan berbagai sistem serta aplikasi teknologi bahasa.
+Pengalaman yang telah dikembangkan di ITB menjadi sangat berharga untuk penelitian bidang ini di kawasan Asis Tenggara.
+Pengakuan terhadap hasil penelitian dan pengembangan yang dilakukan di ITB untuk teknologi ini sudah mulai tumbuh.
+Dalam waktu dekat peneliti dari Departemen Teknik Elektro akan melakukan penelitian untuk penerapan teknologi ini dalam jaringan telekomunikasi (Next Generation Network) di Jerman.
+Terima kasih pula kepada semua pihak yang telah memberikan dukungan dalam bentuk apapun untuk mempersiapkan dan membantu pelaksanaan acara ini.
+Pemrosesan Bahasa Alamiah (Natural language processing/NLP) merupakan cabang kecerdasan buatan yang membantu komputer memahami, menafsirkan, dan memanipulasi bahasa manusia.
+NLP menarik dari banyak disiplin ilmu, termasuk ilmu komputer dan linguistik komputasional, dalam usahanya untuk mengisi kesenjangan antara komunikasi manusia dan pemahaman komputer.
+Pemrosesan bahasa alamiah membantu komputer berkomunikasi dengan manusia dalam bahasanya sendiri dan membuat skala tugas-tugas yang terkait bahasa lainnya.
+Misalnya, NLP memungkinkan komputer untuk membaca teks, mendengar ucapan, menafsirkannya, mengukur sentimen, dan menentukan bagian mana yang penting.
+Bahasa manusia amat sangat kompleks dan beragam.
+Kita mengekspresikan diri dengan cara yang tak terbatas, baik secara verbal maupun tertulis.
+Tidak hanya ada ratusan bahasa dan dialek, namun di dalam setiap bahasa ada juga serangkaian aturan tata bahasa dan sintaksis, istilah, dan kata-kata slang.
+Ringkasan dokumen berbasis linguistik, termasuk pencarian dan penyusunan indeks, pemberitahuan konten dan deteksi duplikasi.
+Secara otomatis menarik informasi terstruktur dari sumber berbasis teks.
+Mengidentifikasi suasana hati atau opini subjektif dalam jumlah besar teks, termasuk sentimen rata-rata dan penambangan opini.
+NLP sering dianggap sebagai cabang dari kecerdasan buatan dan bidang kajiannya bersinggungan dengan linguistik komputasional.
+Meskipun kajiannya dapat mencakup teks dan tuturan, pemrosesan tuturan (speech processing) telah berkembang menjadi suatu bidang kajian terpisah.
+Sejarah NLP dimulai pada tahun 1950-an, meskipun telah ada penilitian NLP pada tahun-tahun sebelumnya.
+Tes Turing adalah sebuah tes yang mengukur kemampuan mesin (dalam hal ini program komputer) untuk menunjukan perilaku cerdas.
+Dalam ilustrasi contoh aslinya, seorang juri manusia akan terlibat dalam percakapan dengan manusia dan mesin yang akan dites.
+Semua peserta dipisahkan satu sama lain.
+Jika juri tidak bisa membedakan antara manusia dan mesin, maka mesin tersebut dikatakan lulus tes.
+Secara umum, Jenis aplikasi yang bisa dibuat dalam bidang ilmu NLP terbagi dua, yaitu text-based application dan dialogue-based application.
+Text-based application adalah segala macam aplikasi yang melakukan proses terhadap teks tertulis seperti misalnya dokumen, e-mail, buku dan sebagainya.
+Program yang mampu mengklasifikasi dan mengambil isi dari suatu dokumen berdasarkan kontennya.
+Program yang mampu mentranslasi kalimat baik berupa teks maupun suara dari satu bahasa alami ke bahasa lainnya.
+NLP adalah bidang studi tersulit dalam kecerdasan buatan.
+Tetapi, jika kita berhasil dalam pengembangan NLP maka dampak positifnya sangatlah besar.
+Natural language processing (NLP) adalah cabang dari kecerdasan buatan yang berhubungan dengan interaksi antara komputer dan manusia menggunakan bahasa alami.
+Menurut Textmetrics, NLP digunakan untuk mengukur sentimen dan menentukan bagian mana dari bahasa manusia yang penting.
+Aplikasi terjemahan bahasa seperti Google Translate.
+Aplikasi pengolah kata seperti Microsoft Word dan Grammarly, yang menggunakan NLP untuk memeriksa keakuratan tata bahasa teks.
+Aplikasi chatbot ataupun Interactive Voice Response (IVR) untuk menanggapi permintaan pengguna tertentu.
+Aplikasi personal assistant seperti OK Google, Siri, Cortana, dan Alexa.
+Ada berbagai pendekatan yang digunakan agar komputer dapat memahami bahasa manusia.
+Pendekatan simbolik menggunakan pendekatan yang berdasarkan pada aturan dan leksikon yang dikembangkan manusia.
+Artinya, sistem menerima aturan bicara dalam bahasa tertentu yang diwujudkan dan direkam oleh pakar linguistik untuk diikuti.
+Pendekatan statistik didasarkan pada contoh fenomena linguistik yang dapat diamati dan berulang.
+Sistem mengenali tema berulang melalui analisis matematis.
+Pendekatan koneksi merupakan pendekatan yang menggabungkan pendekatan simbolik dan pendekatan statistik.
+Hal ini dimulai dengan menggunakan aturan bahasa secara umum dan menyesuaikannya dengan aplikasi spesifik dari input yang berasal dari pendekatan statistik.
+Syntax mengacu pada susunan kata-kata dalam sebuah kalimat sehingga tampak masuk akal secara tata bahasa.
+NLP menggunakan analisis syntax untuk menerapkan aturan tata bahasa pada kumpulan kata yang ditemukannya.
+Ada beberapa teknik syntax yang bisa digunakan.
+Lemmatization, melakukan pengurangan berbagai bentuk kata yang berubah menjadi satu bentuk untuk memudahkan analisis.
+Segmentasi morfologis, melibatkan pembagian kata menjadi unit-unit individu atau morfem.
+Segmentasi kata, membagi sebagian besar teks berkelanjutan menjadi unit-unit berbeda.
+Penandaan part-of-speech, dengan mengidentifikasi bagian dari ucapan untuk setiap kata.
+Parsing, dengan melakukan analisis tata bahasa untuk kalimat yang disediakan.
+Pemutusan kalimat, dengan menempatkan batas kalimat pada sepotong teks besar.
+Stemming, memotong kata-kata yang diubah ke bentuk akarnya.
+Semantics mengacu pada makna yang disampaikan oleh sebuah teks.
+Ini merupakan aspek yang paling sulit dianalisis dalam natural language processing dan belum sepenuhnya dipelajari.
+Analisis ini melibatkan penerapan algoritma komputer untuk memahami arti dan interpretasi kata-kata dan bagaimana kalimat disusun.
+amed entity recognition (NER), melibatkan penentuan bagian-bagian teks yang dapat diidentifikasi dan dikategorikan ke dalam grup tertentu.
+Contohnya nama orang dan nama tempat.
+Disambiguasi arti kata, melibatkan pemberian makna pada kata berdasarkan konteksnya.
+Natural language generation, melibatkan penggunaan database untuk mendapatkan maksud semantik dari teks dan mengubahnya menjadi bahasa manusia.
+Morfem adalah unit makna terkecil dari sebuah kata.
+Level ini berkaitan dengan morfem dalam perannya sebagai bagian yang menyusun kata.
+Pada level ini, sistem akan fokus pada bagaimana bagian-bagian kata (morfem) bergabung untuk membuat kata-kata.
+Kemudian, sistem akan mengidentifikasi perbedaan-perbedaan untuk menemukan arti dari setiap kata.
+Level ini berfokus pada teks di level kalimat.
+Tahap ini berkisar pada gagasan bahwa dalam kebanyakan bahasa, arti kalimat bergantung pada urutan kata dan tata bahasanya.
+Pada level ini, sistem berfokus pada bagaimana konteks kata dalam kalimat membantu menentukan arti kata pada tingkat individu.
+Level ini berfokus pada bagaimana kalimat berhubungan satu sama lain dalam satu teks.
+Sistem akan mengidentifikasi urutan dan pengaturan kalimat yang dapat mempengaruhi arti kalimat.
+Level ini berfokus pada makna kata atau kalimat pada kesadaran situasional dan pengetahuan dunia.
+Pada dasarnya, sistem akan mengidentifikasi apa arti yang paling mungkin dan paling masuk akal dari teks tersebut.
+Tujuan akhir dari natural language processing adalah agar komputer mencapai pemahaman bahasa yang mirip manusia.
+Ketika ini tercapai, sistem komputer akan dapat memahami, menarik kesimpulan, meringkas, menerjemahkan dan menghasilkan teks dalam bahasa manusia yang akurat.
+Itulah hal-hal yang perlu kamu ketahui tentang NLP.
+Seiring perkembangan zaman, memahaminya adalah hal yang cukup penting bagimu yang bekerja di bidang teknologi.
+Selain informasi ini, kamu bisa mendapatkan artikel lain tentang teknologi dan dunia kerja dari Glints.
+Cara mendapatkannya mudah, kamu hanya perlu berlangganan newsletter mingguan dari Glints.
+Pemrosesan bahasa alami, atau NLP (natural language processing), adalah cabang ilmu komputer dan linguistik yang mengkaji interaksi antara komputer dengan bahasa (alami) manusia.
+NLP sering dianggap sebagai cabang dari kecerdasan buatan dan bidang kajiannya bersinggungan dengan linguistik komputasional.
+Kajian NLP antara lain mencakup segmentasi tuturan, segmentasi teks, penandaan kelas kata, serta pengawataksaan makna.
+Meskipun kajiannya dapat mencakup teks dan tuturan, pemrosesan tuturan (speech processing) telah berkembang menjadi suatu bidang kajian terpisah.
+Secara alami, kita (manusia) tidak menggunakan kata-kata tanpa suatu urutan atau struktur.
+Kita menggunakan kata-kata dalam kalimat, yang memiliki semantik dan dan struktur sintaksis.
+Teknik-teknik otomatis harus mencari cara untuk melebihi kemampuan interpretasi ‘bag-of-words’ dan menyatukan makin lama makin banyak struktur semantik dalam operasinya.
+Contoh yang bagus bisa ditemukan dalam evidence-based medicine (pengobatan/kedokteran berbasis bukti).
+Definisi dan scope dari kata ‘memahami’ adalah salah satu topic utama dalam diskusi tentang NLP.
+Sentiment analysis menawarkan peluang yang sangat besar untuk berbagai penerapan.
+Sistem mengubah informasi dari database komputer menjadi bahasa manusia yang bisa dibaca.
+Penerjemahan otomatis dari satu bahasa manusia ke bahasa yang lain.
+Mari kita lihat cara menghapus tanda baca.
+Kami akan menggunakan Ekspresi Reguler saat menghapus tanda baca.
+Saya akan menggunakannya sebagai template dan saya tidak akan membahas detailnya di sini.
+Mereka yang penasaran dan ingin menelaah secara detail bisa melihat tautan ini.
+Mari kita bicara tentang apa itu StopWords dulu.
+Stopwords adalah kata-kata dari setiap bahasa yang tidak masuk akal.
+Kita bisa mendefinisikannya sendiri dalam daftar.
+Di sini, saya akan mengimpor stopwords untuk bahasa Inggris menggunakan perpustakaan NLTK.
+Tetapi sebelum melakukan semua operasi ini, mari kita ubah teks kembali ke DataFrame.
+Salah satu yang paling signifikan dari kemajuan ini adalah bidang pengenalan suara.
+Di sinilah teknik pembelajaran mendalam seperti pemrosesan bahasa alami (NLP) datang ke gambar.
+NLP membuka front baru untuk meningkatkan interaksi manusia-komputer.
+Ini adalah subbidang linguistik komputasi yang berhubungan dengan teknologi untuk memungkinkan input lisan ke dalam sistem.
+Ini memungkinkan pengguna untuk mengontrol komputer mereka dengan suara mereka.
+Pengenalan ucapan cepat menjadi andalan dalam interaksi manusia-komputer.
+NLP adalah salah satu teknologi yang menyederhanakan proses pengenalan ucapan menggunakan bahasa alami.
+Natural Language Processing (NLP) adalah cabang ilmu komputer yang berhubungan dengan komunikasi manusia.
+Pengenalan ucapan pada dasarnya berarti berbicara dengan komputer dan membuatnya mengerti dan menafsirkan kata-kata yang Anda ucapkan.
+Ini mengidentifikasi dan menafsirkan kata dan frasa dalam bahasa lisan dan mengubahnya menjadi teks oleh komputer.
+Natural Language Processing hanya berurusan dengan interaksi antara manusia dan komputer menggunakan bahasa alami seperti bahasa Inggris.
+Teknologi NLP menerapkan algoritma pembelajaran mesin untuk teks dan ucapan.
+NLP dan pengenalan suara sering digunakan bersama dalam aplikasi seperti asisten suara, mesin ASR, dan alat analisis bicara.
+Bahasa dapat dibedakan menjadi 2 yaitu bahasa alami dan bahasa buatan.
+Berhubungan dengan suara yang menghasilkan kata yang dapat dikenali.
+Bidang ini menjadi penting dalam proses aplikasi yang memakai metode speech based system.
+Pengetahuan tentang kata dan bentuknya dimanfaatkan untuk membedakan satu kata dengan lainnya.
+Pada tingkat ini juga dapat dipisahkan antara kata dan elemen lain seperti tanda baca.
+Pemahaman tentang urutan kata dalam pembentukan kalimat dan hubungan antar kata tersebut dalam proses perubahan bentuk dari kalimat menjadi bentuk yang sistematis.
+Meliputi proses pengaturan tata letak suatu kata dalam kalimat akan membentuk kalimat yang dapat dikenali.
+Selain itu dapat pula dikenali bagian-bagian kalimat dalam suatu kalimat yang lebih besar.
+Pemetaan bentuk struktur sintaksis dengan memanfaatkan tiap kata ke dalam bentuk yang lebih mendasar dan tidak tergantung struktur kalimat.
+Semantik mempelajari arti suatu kata dan bagaimana dari arti kata-kata tersebut membentuk suatu arti dari kalimat yang utuh.
+Dalam tingkatan ini belum tercakup konteks dari kalimat tersebut.
+Pengetahuan pada tingkatan ini berkaitan dengan masing-masing konteks yang berbeda tergantung pada situasi dan tujuan pembuatan sistem.
+Melakukan pengenalan apakah suatu kalimat yang sudah dibaca dan dikenali sebelumnya akan mempengaruhi arti dari kalimat selanjutnya.
+Informasi ini penting diketahui untuk melakukan pengolahan arti terhadap kata ganti orang dan untuk mengartikan aspek sementara dari informasi.
+Mencakup arti sebuah kata secara umum dan apakah ada arti khusus bagi suatu kata dalam suatu percakapan dengan konteks tertentu.
+Definisi ini tidaklah bersifat kaku dan untuk setiap bentuk bahasa alami yang ada biasanya ada pendefinisian lagi yang lebih spesifik sesuai dengan karakter bahasa tersebut.
+Selain yang sudah disebutkan di atas masih ada lagi satu masalah yang cukup menantang dalam bahasa alami, yaitu ambiguitas atau makna ganda dari suatu kata atau kalimat.
+Dari satu masukan yang sama dapat menjadi beberapa arti yang berbeda dan masing-masing dapat bernilai benar tergantung pada keperluan pemakai.
+Hal ini dapat terjadi pada hampir semua tingkatan pendekatan di atas.
+Suatu sistem yang mengambil kalimat input bahasa alami dan menguraikannya ke dalam beberapa bagian gramatikal (kata benda, kata kerja, kata sifat, dan lain-lain).
+Suatu sistem yang menganalisis output parser untuk menentukan maknanya.
+Sistem ini biasanya mempunyai masukan dan keluaran berupa bahasa tulisan (teks).
+NLP mempunyai aplikasi yang sangat luas.
+Translator bahasa alami bukan hanya kamus yang menerjemahkan kata per kata, tetapi harus juga mentranslasikan sintaks dari bahasa asal ke bahasa tujuannya.
+Translator yang mengubah perintah-perintah dalam bahasa alami menjadi bahasa buatan yang dapat dieksekusi oleh mesin atau komputer.
+Sebagai contoh, translator yang memungkinkan kita memberikan perintah bahasa alami kepada komputer.
+Suatu sistem yang dapat “membuat ringkasan” hal-hal yang penting dari suatu wacana yang diberikan.
+Dalam dunia kecerdasan buatan pengolahan bahasa alami merupakan aplikasi terbesar setelah sistem pakar.
+Secara umum, Jenis aplikasi yang bisa dibuat dalam bidang ilmu NLP terbagi dua, yaitu text-based application dan dialogue-based application.
+Text-based application adalah segala macam aplikasi yang melakukan proses terhadap teks tertulis seperti misalnya dokumen, e-mail, buku, dan sebagainya.
+Program yang mampu mengklasifikasi dan mengambil isi dari suatu dokumen berdasarkan kontennya.
+Seperti spam filtering (pemfilteran pesan sampah), language identification (identifikasi bahasa), dan lain-lain.
+Program yang mampu mentranslasi kalimat baik berupa teks maupun suara dari satu bahasa alami ke bahasa lainnya.
+Penerapan teknologi ini pada mesin, memungkinkan pemrosesan jumlah data yang sangat besar dan melakukan strukturasi dari data yang sejatinya tidak terstruktur.
+Teknologi ini juga terus berevolusi dan menjadi semakin baik dalam memahami nilai rasa, konteks, dan ambiguitas dari bahasa manusia.
+Peningkatan kemampuan teknologi ini membuat NLP dapat diterapkan ke berbagai aplikasi penting lainnya untuk meningkatkan produktivitas manusia.
+Berbagai penerapan teknologi NLP sudah mulai banyak ditemukan di era transformasi digital ini.
+Kita perlu memahami bagaimana teknologi NLP tersebut diadopsi di berbagai industri dan bagaimana hal tersebut akan memengaruhi masa depan kita.
+Dengan teknik ini kita dapat melakukan penyesuaian parameter dari model pre-trained dengan data tambahan yang tidak banyak.
+Dengan begitu, bisnis bisa memanfaatkan NLP untuk membuat fungsi baru dengan lebih ekonomis dan dengan data yang lebih sedikit.
+Teknik ini dapat digunakan untuk mempercepat tugas seperti tanya jawab, translasi dan membuat ringkasan.
+Data adalah kunci untuk implementasi AI-NLP.
+Oleh karena itu, kami di Prosa.ai memfokuskan usaha untuk membangun data dan skenario penggunaan NLP spesifik untuk Bahasa Indonesia.
+Dengan begitu, kami membangun dasar yang solid untuk pembangunan teknologi NLP teks dan suara yang lebih advanced untuk memahami komunitas digital kita lebih baik lagi di masa depan.
+Sebelumnya, untuk membangun sebuah model NLP, kita memerlukan dasar pendidikan di bidang tersebut, keahlian membuat program untuk menggunakan open-source library dan pengetahuan pembelajaran mesin.
+Teknologi pemrosesan bahasa alami atau lebih dikenal dengan istilah NLP (Natural Language Processing) merupakan salah satu cabang dari kecerdasan artifisial (AI) yang memungkinkan mesin untuk memahami bahasa manusia.
+Bahasa manusia sangat kompleks dan memiliki banyak aspek serta ragamnya.
+Penerapan teknologi ini pada mesin, memungkinkan pemrosesan jumlah data yang sangat besar dan melakukan strukturasi dari data yang sejatinya tidak terstruktur.
+Dengan semakin meningkatnya jumlah data tidak terstruktur dalam bentuk teks, suara dan video setiap harinya, NLP akan menjadi semakin penting untuk memahami data yang beredar di antara kita.
+Berbagai jenis dan macam task (tugas) seperti terjemahan, ringkasan otomatis, dan ekstraksi hubungan, pengenalan ucapan, pengenalan entitas bernama, segmentasi topik, dan analisis sentimen dapat dilakukan oleh pengembang menggunakan pemrosesan bahasa alami.
+Penerapan dan aplikasi NLP memang terbilang sulit atau menantang karena komputer membutuhkan manusia untuk berinteraksi dengannya menggunakan bahasa pemrograman seperti Java, Python, dan lain sebagainya dengan syarat terstruktur dan tidak ambigu.
+Akan tetapi bahasa lisan manusia seringkali bersifat ambigu (memiliki arti serta pengertian yang lebih dari satu) dan berubah dengan perubahan regional atau sosial, sehingga karena itulah NLP (Natural Language Processing) menjadi sulit untuk melatih komputer untuk memahami bahasa alami.
+Jadi, berdasarkan penjelasan dan pembahasan di atas, dapat kita simpulkan bahwa pemrosesan bahasa alami/alamiah atau Natural Language Processing (NLP) adalah cabang dari kecerdasan buatan yang berhubungan dengan pelatihan komputer untuk memahami, memproses, dan menghasilkan bahasa makhluk hidup (dalam hal ini yaitu manusia).
+Search engine (mesin pencari), layanan terjemahan mesin, dan asisten suara semuanya didukung oleh teknologi ini.
+Sementara istilah awalnya mengacu pada kemampuan sistem untuk membaca, dalam perkembangannya NLP sudah menjadi bahasa sehari-hari untuk semua linguistik komputasi.
+Jenis dan subkategori NLP termasuk pemahaman bahasa alami atau Natural Language Understanding (NLU) yaitu kemampuan untuk memahami bahasa gaul (slang), salah pengucapan, salah eja (typo), dan varian bahasa lainnya dan juga generasi bahasa alami atau Natural Language Generation (NLG) yang merupakan kemampuan komputer untuk menciptakan komunikasinya sendiri.
+Pemrosesan bahasa alami (NLP) berfokus pada interaksi antara mesin dan bahasa manusia.
+Ini adalah tujuan NLP untuk memproses dan menganalisis sejumlah besar data bahasa untuk meningkatkan komunikasi alami antara manusia dan mesin.
+Bidang AI ini mencakup pengenalan ucapan, memahami bahasa dan menghasilkan bahasa alami.
+Fokus kami akan memahami bahasa alami, proses menganalisis dan menentukan makna atau maksud teks.
+Memahami bahasa mana yang digunakan dalam teks sangat mendasar untuk mengetahui kamus mana, sintaks dan aturan tata bahasa yang digunakan dalam analisis.
+Mengidentifikasi kata-kata kunci dalam frasa, seberapa relevan atau menonjol bagi mereka secara keseluruhan teks dan menentukan apa entitas itu, berdasarkan pelatihan atau basis pengetahuan.
+Menilai tingkat umum 'perasaan' dalam sebuah teks.
+Ada banyak pendekatan teknis untuk menguraikan dan memproses data.
+Terlepas dari alat NLP mana yang Anda gunakan, Anda harus mengatasi langkah-langkah umum parsing dan analisis.
+Biasanya teks dipisahkan menjadi potongan logis.
+Potongan-potongan ini dianalisis dengan data terlatih atau basis pengetahuan dan nilai yang ditugaskan, biasanya berkisar antara 0,0 hingga 1.0 untuk mencerminkan tingkat kepercayaan dalam analisis.
+Kami akan menggunakan API bahasa alami baru yang dikembangkan oleh Google untuk tutorial ini.
+Ada banyak API yang tersedia tetapi Google memiliki beberapa keunggulan yang bagus, termasuk komputasi awan, kecepatan, basis pengguna dan pembelajaran mesin yang sangat besar.
+Mesin pencari Google dan alat telah menggunakan AI selama bertahun-tahun.
+Jadi Anda memanfaatkan semua pengalaman itu dan belajar dengan menggunakan layanan yang menghadap publik.
+API digabungkan dengan mudah ke dalam proyek apa pun.
+Ini menghemat banyak waktu versus pengkodean tangan NLP Anda sendiri.
+API Resistful yang abstrak memungkinkan Anda untuk berintegrasi dengan hampir semua bahasa yang Anda inginkan melalui panggilan curl umum atau salah satu dari banyak SDKS yang tersedia.
+Ada beberapa trik untuk didirikan tetapi kami akan menyelesaikannya selangkah demi selangkah.
+Pergi ke Google cloud platform konsol dan buat proyek baru atau pilih yang sudah ada untuk dikerjakan.
+Layanan ini gratis untuk digunakan sampai Anda mulai membuat volume permintaan API besar.
+Anda mungkin perlu mengaitkan info penagihan dengan akun ketika Anda mengaktifkan API tetapi ini tidak dikenakan biaya pada volume rendah dan Anda dapat menghapus layanan setelah Anda selesai menguji jika Anda mau.
+Jelajahi ke Perpustakaan API dan pilih NL API.
+Setelah diaktifkan Anda harus melihat sedikit cek hijau dan pesan 'API diaktifkan' di sampingnya.
+Sekarang Anda siap untuk menggali menggunakan API dan melihat NLP beraksi.
+Anda akan menggunakan Curl untuk melakukan tes cepat API.
+Anda juga dapat menggunakan metode ini dari kode Anda.
+Permintaan Curl dapat dibuat dalam sebagian besar bahasa, yang berarti Anda dapat membuat panggilan langsung di baris perintah atau menetapkan hasilnya ke variabel dalam bahasa pilihan Anda.
+Lihat disini Untuk beberapa tips cepat menggunakan Curl.
+Perang Jawa ditokohi oleh pahlawan nasional Pangeran Diponegoro selama lima tahun.
+Perang meletus saat makam leluhur Pangeran Diponegoro akan dirusak dan campur tangan Belanda dalam urusan internal keraton.
+Pangeran Diponegoro menerapkan strategi perang gerilya saat melawan Belanda yang membuat dirinya sulit ditangkap.
+Namun Belanda berhasil menyudutkan dan menangkap Pangeran Diponegoro di Magelang.
+Perang Jawa memakan banyak korban jiwa, termasuk warga pribumi dan serdadu Belanda.
+Surat kabar Sin Po merupakan surat kabar Tionghoa yang dicetak menggunakan Bahasa Melayu yang terbit saat masa penjajahan kolonial.
+Surat kabar Sin Po memiliki peran besar dan penting dalam sejarah Indonesia yakni menjadi harian surat kabar pertama yang memuat teks lagu kebangsaan Indonesia, Indonesia Raya.
+Harian Sin Po juga memelopori penggunaan nama 'Indonesia' untuk menggantikan penyebutan 'Hindia Belanda'.
+Surat kabar Sin Po sempat terhenti saat penjajahan Jepang tahun 1942 sebelum dibredel oleh pemerintah setelah peristiwa G30S/PKI tahun 1965.
+Organisasi yang digagas oleh Dr.
+Wahidin Sudirohusodo merupakan organisasi kepemudaan yang menjadi awal pergerakan kebangkitan nasional Indonesia lewat kaum terpelajar.
+Organisasi Budi Utomo beranggotakan para kaum intelektual Jawa yang berkuliah di Stovia (School tot Opleiding van Indische Artsen) atau sekolah Pendidikan Dokter Hindia.
+Dalam perjalanannya anggota Budi Utomo mengalami berbagai pergantian anggota dan pemahaman kultural.
+Kongres Pemuda pertama terjadi pada 30 April hingga 2 Mei 1926 yang terbentuk di Weltevreden (Lapangan Banteng saat ini).
+Kongres ini membahas berbagai persoalan sosial, ekonomi, dan budaya.
+Dinamakan Kongres Pemuda karena perhimpunan ini dihadiri oleh berbagai organisasi pemuda.
+Organisasi pemuda yang hadir saat itu adalah Jong Java, Jong Sumatera, Jong Betawi dan lainnya.
+Kongres Pemuda kemudian berlanjut ke Kongres kedua pada 1928 yang dipimpin oleh Soegondo Djojopoespito dari Perhimpunan Pelajar Indonesia yang kemudian melahirkan Sumpah Pemuda.
+Sumpah Pemuda merupakan salah satu peristiwa bersejarah di Indonesia.
+Sumpah Pemuda menjadi penggerak utama penggerak kemerdekaan Indonesia.
+Sumpah Pemuda merupakan hasil keputusan dari Kongres Pemuda Kedua yang berisikan Bertanah Air Satu, Berbangsa Satu, Berbahasa Indonesia.
+Sejak 16 Desember 1959 melalui Keppres No.
+316 tahun 1959, tanggal 28 Oktober ditetapkan sebagai Hari Sumpah Pemuda dan hari libur nasional.
+Kelahiran sila-sila Pancasila lahir dalam pidato Soekarno di sidang BPUPKI pada 1 Juni 1945, merujuk BPIP.
+Isi pidato tersebut kemudian disempurnakan dan dibahas oleh para intelektual bangsa dan ditetapkan sebagai dasar negara Indonesia.
+Istilah Pancasila mengacu pada Bahasa Sanskerta dengan panca yang artinya lima dan sila yang berarti dasar atau asas.
+1 Juni ditetapkan sebagai libur nasional melalui Keppres Nomor 24 tahun 2016.
+Proklamasi Kemerdekaan Indonesia merupakan peristiwa sejarah di Indonesia yang sangat penting.
+Dengan dibacakannya teks proklamasi oleh Ir.
+Soekarno, Indonesia resmi menjadi negara merdeka pada 17 Agustus 1945.
+Pembacaan teks proklamasi bertempat di Jalan Pegangsaan Timur No.
+56, Jakarta Pusat.
+Teks Proklamasi ditandatangani oleh Ir.
+Soekarno dan Mohammad Hatta yang juga menjadi presiden dan wakil presiden pertama Indonesia.
+Pertempuran Surabaya terjadi pada 10 November 1945 yang kemudian dikenal sebagai Hari Pahlawan dan dijadikan sebagai hari libur nasional.
+Kota Surabaya menjadi medan perang antara pasukan Inggris dengan tentara dan rakyat Surabaya.
+Pertempuran Surabaya menjadi perang pertama di Indonesia setelah Presiden Soekarno menyatakan proklamasi kemerdekaan pada Agustus.
+Ada dua hal ikonis dari peristiwa ini yakni, perobekan bendera Belanda di Hotel Yamato dan pidato membara dari Bung Tomo dengan semboyannya 'Merdeka atau Mati'.
+Terbakarnya Bandung hingga disebut seperti lautan api terjadi pada 23 Maret 1946, menjadi salah satu rangkaian dari peristiwa sejarah di Indonesia.
+Dibakarnya seantero Kota Bandung dilakukan penduduknya merupakan strategi rakyat Indonesia menghindari kota dikuasai dan digunakan sebagai markas oleh militer Belanda.
+Akibat dari peristiwa Bandung Lautan Api, sebanyak 200.000 penduduk mengungsi.
+Konferensi Meja Bundar (KMB) menandai lepasnya Indonesia dari cengkeraman Belanda.
+Konferensi Meja Bundar diadakan di Den Haag pada 23 Agustus hingga 2 November 1949.
+Sebelum KMB terjadi, terdapat tiga rangkaian perjanjian Indonesia dan Belanda yang mendahului, perjanjian tersebut di antaranya Perjanjian Linggarjati (1947), Perjanjian Renville (1948), dan Perjanjian Roem Royen (1949), serta peristiwa Agresi Militer Belanda I dan II.
+Indonesia resmi menjadi anggota PBB ke-60 pada 28 September 1950, merujuk Kemlu.
+Hal tersebut bisa terjadi setelah pengakuan Belanda dalam Konferensi Meja Bundar.
+Namun Indonesia keluar dari keanggotaan PBB pada 7 Januari 1965 setelah konfrontasi Indonesia dan Malaysia, kemudian bergabung kembali pada 1966.
+Sosok yang disebut sebagai The Smiling General ini menjadi presiden kedua RI pada 26 Maret 1968.
+Soeharto tidak langsung menjadi presiden menggantikan Soekarno, melainkan terlebih dulu menjabat sebagai Pejabat Presiden sesuai dengan ketetapan MPRS.
+Pamornya naik setelah Presiden Soekarno memercayakan permasalahan PKI kepada Soeharto.
+Soeharto memerintah Indonesia 32 tahun lamanya dari 1968 hingga 1998.
+Presiden Soeharto lengser dari kursi kepresidenan pada 21 Mei 1998 setelah berkuasa 32 tahun lamanya.
+Soeharto mengundurkan diri saat baru dua bulan dipilih kembali untuk ketujuh kalinya.
+Soeharto mundur setelah mendapat tekanan kuat masyarakat yang menuntut reformasi akibat permasalahan ekonomi, politik, dan sosial yang telah lama menggelembung.
+Salah satu memori yang paling diingat dalam aksi menurunkan Soeharto adalah Tragedi Trisakti.
+Enam mahasiswa tewas diterjang peluru tajam dalam aksi damai demonstrasi mahasiswa.
+Sementara kerusuhan dan penjarahan dan kerusuhan SARA melanda hampir sebagian Jakarta.
+Posisi presiden kemudian digantikan oleh B.J.
+Habibie sebagai presiden ke-3 RI.
+Peristiwa sejarah di Indonesia selanjutnya adalah pemilihan umum (pemilu) pada 2004.
+Ini adalah pemilu pertama yang memungkinkan rakyat memilih presiden secara langsung dan dilakukan dengan cara yang benar-benar berbeda dari sebelumnya.
+Pemilihan Umum ini diselenggarakan selama 2 putaran.
+Putaran pertama diselenggarakan pada 5 Juli 2004 diikuti oleh 5 paslon, kemudian pemilu putaran kedua pada 20 September 2004 diikuti oleh 2 paslon.
+Pada pemilu kali pertama Indonesia ini dimenangkan oleh pasangan Presiden Susilo Bambang Yudhoyono dan Wakil Presiden Jusuf Kalla.
+Selama abad ke-18, Vereenigde Oost-Indische Compagnie (disingkat VOC) memantapkan dirinya sebagai kekuatan ekonomi dan politik di pulau Jawa setelah runtuhnya Kesultanan Mataram.
+Perusahaan dagang Belanda ini telah menjadi kekuatan utama di perdagangan Asia sejak awal 1600-an, tetapi pada abad ke-18 mulai mengembangkan minat untuk campur tangan dalam politik pribumi di pulau Jawa demi meningkatkan kekuasaannya pada ekonomi lokal.
+Namun korupsi, manajemen yang buruk dan persaingan ketat dari Inggris (East India Company) mengakibatkan runtuhnya VOC menjelang akhir abad ke-18.
+Pada tahun 1796, VOC akhirnya bangkrut dan kemudian dinasionalisasi oleh pemerintah Belanda.
+Akibatnya, harta dan milik (aset) VOC di Nusantara jatuh ke tangan mahkota Belanda pada tahun 1800.
+Namun, ketika Perancis menduduki Belanda antara tahun 1806 dan 1815, aset-aset tersebut dipindahkan ke tangan Inggris.
+Setelah kekalahan Napoleon di Waterloo diputuskan bahwa sebagian besar wilayah Nusantara kembali ke tangan Belanda.
+Dua nama menonjol sebagai arsitek Pemerintah Kolonial Belanda di Indonesia.
+Pertama, Herman Willem Daendels, Gubernur Jenderal 1808-1811 ketika Belanda dikuasai oleh Perancis, dan, kedua, Letnan Inggris Stamford Raffles, Gubernur Jenderal 1811-1816 ketika Jawa dikuasai Inggris.
+Daendels mereorganisasi pemerintahan kolonial pusat dan daerah dengan membagi pulau Jawa dalam distrik (yang juga dikenal sebagai residensi) yang dipimpin oleh seorang pegawai negeri sipil Eropa - yang disebutkan residen - yang secara langsung merupakan bawahan dari - dan harus melapor kepada - Gubernur Jenderal di Batavia.
+Para residen ini bertanggung jawab atas berbagai hal di residensi mereka, termasuk masalah hukum dan organisasi pertanian.
+Raffles melanjutkan reorganisasi pendahulunya (Daendels) dengan mereformasi pengadilan, polisi dan sistem administrasi di Jawa.
+Dia memperkenalkan pajak tanah di Jawa yang berarti bahwa petani Jawa harus membayar pajak, kira-kira nilai dua-perlima dari panen tahunan mereka, kepada pihak berwenang.
+Raffles juga sangat tertarik dengan budaya dan bahasa Jawa.
+Pada tahun 1817 ia menerbitkan bukunya The History of Java, salah satu karya akademis pertama yang topiknya pulau Jawa.
+Namun, reorganisasi administrasinya yang diterapkan Raffles juga berarti meningkatnya intervensi pihak asing di masyarakat dan ekonomi Jawa, yang tercermin dari meningkatnya jumlah pejabat peringkat menengah Eropa yang bekerja di residensi-residensi di pulau Jawa.
+Antara tahun 1825 dan tahun 1890 jumlah ini meningkat dari 73 menjadi 190 pejabat Eropa.
+Sistem pemerintahan kolonial Belanda di Jawa adalah sistem yang direk (langsung) maupun dualistik.
+Bersamaan dengan hirarki Belanda, ada hirarki pribumi yang berfungsi sebagai perantara antara petani Jawa dan layanan sipil Eropa.
+Bagian atas struktur hirarki pribumi ini terdiri dari para aristokrasi Jawa, sebelumnya para pejabat yang mengelola kerajaan Mataram.
+Namun, karena dikuasai penjajah, para priyayi ini terpaksa melaksanakan kehendak Belanda.
+Meningkatnya dominasi Belanda atas pulau Jawa tidak datang tanpa perlawanan.
+Ketika pemerintah kolonial Belanda memutuskan untuk membangun jalan di tanah yang dimiliki Pangeran Diponegoro (yang ditunjuk sebagai wali tahta Yogyakarta setelah kematian mendadak saudara tirinya), ia memberontak dengan didukung oleh mayoritas penduduk di Jawa Tengah dan ia menjadikannya perang jihad.
+Perang ini berlangsung tahun 1825-1830 dan mengakibatkan kematian sekitar 215,000 orang, sebagian besar orang Jawa.
+Tapi setelah Perang Jawa selesai - dan pangeran Diponegoro ditangkap - Belanda jauh lebih kuat di Jawa dibanding sebelumnya.
+Persaingan dengan para pedagang Inggris, Perang Napoleon di Eropa, dan Perang Jawa mengakibatkan beban keuangan yang berat bagi pemerintah Belanda.
+Diputuskan bahwa Jawa harus menjadi sebuah sumber pendapatan utama untuk Belanda dan karena itu Gubernur Jenderal Van den Bosch mendorong dimulainya era Tanam Paksa (para sejarawan di Indonesia mencatat periode ini sebagai era Tanam Paksa namun pemerintah kolonial Belanda menyebutnya Cultuurstelsel yang artinya Sistem Kultivasi) di tahun 1830.
+Dengan sistem ini, Belanda memonopoli perdagangan komoditi-komoditi ekspor di Jawa.
+Terlebih lagi, pihak Belanda-lah yang memutuskan jenis (dan jumlah) komoditi yang harus diproduksi oleh para petani Jawa.
+Secara umum, ini berarti bahwa para petani Jawa harus menyerahkan seperlima dari hasil panen mereka kepada Belanda.
+Sebagai gantinya, para petani menerima kompensasi dalam bentuk uang dengan harga yang ditentukan Belanda tanpa memperhitungkan harga komoditi di pasaran dunia.
+Para pejabat Belanda dan Jawa menerima bonus bila residensi mereka mengirimkan lebih banyak hasil panen dibanding waktu sebelumnya, maka mendorong intervensi top-down dan penindasan.
+Selain pemaksaan penanaman dan kerja rodi, pajak tanah Raffles juga masih berlaku!
+Sistem Tanam Paksa menghasilkan kesuksesan keuangan.
+Antara tahun 1832 dan 1852, sekitar 19 persen dari total pendapatan pemerintah Belanda berasal dari koloni Jawa.
+Antara tahun 1860 dan 1866, angka ini bertambah menjadi 33 persen.
+Pada awalnya, sistem Tanam Paksa itu tidak didominasi hanya oleh pemerintah Belanda saja.
+Para pemegang kekuasaan Jawa, pihak Eropa swasta dan juga para pengusaha Tionghoa ikut berperan.
+Namun, setelah 1850 - waktu sistem Tanam Paksa direorganisasi - pemerintah kolonial Belanda menjadi pemain utama.
+Namun reorganisasi ini juga membuka pintu bagi pihak-pihak swasta Eropa untuk mulai mendominasi Jawa.
+Sebuah proses privatisasi terjadi karena pemerintah kolonial secara bertahap mengalihkan produksi komoditi ekspor kepada para pengusaha swasta Eropa.
+Semakin banyak suara terdengar di Belanda yang menolak sistem Tanam Paksa dan mendorong sebuah pendekatan yang lebih liberal bagi perusahaan-perusahaan asing.
+Penolakan sistem Tanam Paksa ini terjadi karena alasan kemanusiaan dan alasan ekonomi.
+Pada 1870 kelompok liberal di Belanda memenangkan kekuasaan di parlemen Belanda dan dengan sukses menghilangkan beberapa ciri khas sistem Tanam Paksa seperti persentase penanaman beserta keharusan menggunakan lahan dan tenaga kerja untuk hasil panen dengan tujuan ekspor.
+Kelompok liberal ini membuka jalan untuk dimulainya sebuah periode baru dalam sejarah Indonesia yang dikenal sebagai Zaman Liberal (sekitar 1870-1900).
+Periode ini ditandai dengan pengaruh besar dari kapitalisme swasta dalam kebijakan kolonial di Hindia Belanda.
+Pemerintah kolonial pada saat itu kurang lebih memainkan peran sebagai pengawas dalam hubungan antara pengusaha-pengusaha Eropa dengan masyarakat pedesaan Jawa.
+Namun, walau kaum liberal mengatakan bahwa keuntungan pertumbuhan ekonomi juga akan mengucur kepada masyarakat lokal, keadaan para petani Jawa yang menderita karena kelaparan, kurang pangan, dan penyakit tidak lebih baik di Zaman Liberal dibandingkan dengan masa sistem Tanam Paksa.
+Abad ke-19 juga dikenal sebagai abad ekspansi karena Belanda melaksanakan ekspansi geografis yang substantial di Nusantara.
+Didorong oleh mentalisme imperialisme baru, negara-negara Eropa bersaing untuk mencari koloni-koloni di luar benua Eropa untuk motif ekonomi dan status.
+Salah satu motif penting bagi Belanda untuk memperluas wilayahnya di Nusantara - selain keuntungan keuangan - adalah untuk mencegah negara-negara Eropa lain mengambil bagian-bagian dari wilayah ini.
+Pertempuran paling terkenal (dan pertempuran yang paling lama antara Belanda dan rakyat pribumi) selama periode ekspansi Belanda abad ini adalah Perang Aceh yang dimulai pada tahun 1873 dan berlangsung sampai 1913, berakibat pada kematian lebih dari 100,000 orang.
+Namun, Belanda tidak pernah memegang kontrol penuh atas Aceh.
+Toh, integrasi politik antara Jawa dan pulau-pulau lain di Nusantara sebagai kesatuan politis kolonial telah tercapai (sebagian besar) pada awal abad ke-20.
+Waktu perbatasan Hindia Belanda mulai mirip perbatasan yang ada di Indonesia saat ini, Ratu Belanda Wilhelmina membuat pengumuman pada pidato tahunannya di 1901 bahwa kebijakan baru, Politik Etis, akan diterapkan di Hindia Belanda.
+Politik Etis ini (yang merupakan pengakuan bahwa Belanda memiliki hutang budi kepada orang pribumi Nusantara) bertujuan untuk meningkatkan standar kehidupan penduduk asli.
+Cara untuk mencapai tujuan ini adalah melalui intervensi negara secara langsung dalam kehidupan (ekonomi), dipromosikan dengan slogan 'irigasi, pendidikan, dan emigrasi'.
+Namun, pendekatan baru ini tidak membuktikan kesuksesan yang signifikan dalam hal meningkatkan standar kehidupan penduduk asli.
+Namun, Politik Etis itu ada efek samping yang sangat penting.
+Komponen pendidikan dalam politik ini berkontribusi signifikan pada kebangkitan nasionalisme Indonesia dengan menyediakan alat-alat intelektual bagi para elite masyarakat Indonesia untuk mengorganisir dan menyampaikan keberatan-keberatan mereka terhadap pemerintah kolonial.
+Politik Etis ini memberikan kesempatan lewat sistem edukasi, untuk sebagian kecil kaum elit Indonesia, untuk memahami ide-ide politik Barat mengenai kemerdekaan dan demokrasi.
+Maka, untuk pertama kalinya orang-orang pribumi mulai mengembangkan kesadaran nasional sebagai 'orang Indonesia'.
+Pada 1908, para mahasiswa di Batavia mendirikan asosiasi Budi Utomo, kelompok politis pribumi yang pertama.
+Peristiwa ini dianggap sebagai saat kelahiran nasionalisme Indonesia.
+Hal ini memulai tradisi politik kerja sama antara elit muda Indonesia dan para pejabat pemerintahan Belanda yang diharapkan untuk membantu wilayah Hindia Barat mencapai kemerdekaan yang terbatas.
+Bab selanjutnya dalam proses kebangkitan nasionalisme Indonesia adalah pendirian partai politik pertama berbasis masa, Sarekat Islam, pada tahun 1911.
+Pada awalnya, organisasi ini didirikan untuk mendukung para pengusaha pribumi terhadap pengusaha Tionghoa yang mendominasi ekonomi lokal namum Sarekat Islam ini kemudian mengembangkan fokusnya dan mengembangkan kedasaran politik populer dengan tendensi subversif.
+Gerakan-gerakan penting lainnya yang menyebabkan terbukanya pemikiran politik pribumi adalah Muhammadiyah, gerakan reformis sosio-religius Islam yang didirikan pada tahun 1912 dan Asosiasi Sosial Demokrat Hindia, gerakan komunis yang didirikan pada tahun 1914 yang menyebarluaskan ide-ide Marxisme di Hindia Belanda.
+Perpecahan internal di gerakan ini kemudian mendorong pendirian Partai Komunis Indonesia (PKI) pada tahun 1920.
+Pada awalnya, pemerintah kolonial Belanda mengizinkan pendirian gerakan-gerakan politik lokal namun ketika ideologi Indonesia diradikalisasi pada tahun 1920an (seperti yang tampak dalam pemberontakan-pemberontakan komunis di Jawa Barat dan Sumatra Barat di tahun 1926 dan 1927) pemerintah kolonial Belanda mengubahkan kebijakannya.
+Sebuah rezim yang relatif toleran digantikan dengan rezim represif yang menekan semua tindakan yang diduga subversif.
+Rezim represif ini justru memperparah keadaannya dengan meradikalisasi seluruh gerakan nasionalis Indonesia.
+Sebagian dari para nasionalis ini mendirikan Partai Nasionalis Indonesia (PNI) pada tahun 1927 sebagai sebuah reaksi terhadap rezim yang represif.
+Tujuannya adalah mencapai kemerdekaan penuh untuk Indonesia.
+Peristiwa penting lainnya bagi nasionalisme Indonesia adalah Sumpah Pemuda pada tahun 1928.
+Pada kongres yang dihadiri organisasi-organisasi pemuda ini, tiga idealisme diproklamasikan, menyatakan diri memiliki satu tanah air, satu bangsa dan satu bahasa.
+Tujuan utama dari kongres ini adalah mendorong persatuan antara kaum muda Indonesia.
+Di dalam kongres ini lagu yang kemudian menjadi lagu kebangsaan nasional (Indonesia Raya) dikumandangkan dan bendera nasional di masa kemerdekaan (merah-putih) dikibarkan untuk yang pertama kalinya.
+Pemerintah kolonial Belanda bertindak dengan melakukan aksi-aksi penekanan.
+Para pemimpin nasionalis muda, seperti Sukarno (yang di kemudian hari menjadi presiden pertama Indonesia) dan Mohammad Hatta (wakil presiden Indonesia yang pertama) ditangkap dan diasingkan.
+Penjahah Belanda cukup kuat untuk mencegah nasionalisme Indonesia dengan cara menangkap para pemimpinnya dan menekan organisasi-organisasi nasionalis.
+Namun para penjajah tidak bisa menghapuskan sentimen nasionalisme yang telah tertanam di hati bangsa Indonesia.
+Orang-orang Indonesia, di sisi lain, tidak cukup kuat untuk melawan pemimpin kolonialis dan karenanya membutuhkan bantuan dari luar untuk menghancurkan sistem kolonial.
+Pada Maret 1942, tentara Jepang, dibakar semangatnya oleh keinginan akan minyak, menyediakan bantuan tersebut dengan menduduki Hindia Belanda.
+Walau pada awalnya disambut sebagai pembebas oleh penduduk pribumi Indonesia, mereka segera mengalami kesengsaraan di bawah penjajahan Jepang: kekurangan makanan, pakaian dan obat beserta kerja paksa di bawah kondisi yang menyiksa.
+Kurangnya makanan terutama disebabkan oleh administrasi yang tidak kompeten, dan ini mengubahkan Jawa menjadi sebuah pulau penuh kelaparan.
+Orang-orang Indonesia bekerja sebagai buruh paksa (disebut romusha) ditempatkan untuk bekerja dalam proyek-proyek konstruksi yang padat karya di Jawa.
+Waktu Jepang mengambil alih Hindia Belanda para pejabat Belanda ditempatkan dalam kamp-kamp tawanan dan digantikan dengan orang-orang Indonesia untuk mengerjakan tugas-tugas kepemerintahan.
+Tentara Jepang mendidik, melatih dan mempersenjatai banyak kaum muda Indonesia dan memberikan suara politik kepada para pemimpin nasionalis.
+Ini memampukan para pemimpin nasionalis untuk mempersiapkan masa depan bangsa Indonesia yang merdeka.
+Pada bulan-bulan terakhir sebelum penyerahan diri Jepang, yang secara efektif mengakhiri Perang Dunia II, pihak Jepang memberikan dukungan penuh pada gerakan nasionalis Indonesia.
+Hancurnya kekuasaan politik, ekonomi, dan sosial pemerintah kolonial Belanda melahirkan sebuah era baru.
+Pada 17 Agustus 1945, Soekarno dan Hatta memproklamasikan kemerdekaan Indonesia, delapan hari setelah penjatuhan bom atom di Nagasaki dan dua hari setelah Jepang kalah perangnya.
+Namun harus langsung ditekankan bahwa di dalam tiga versi masing-masing terdapat banyak variasi juga.
+Toh, kita dapat melihat tiga versi tersebut secara garis besar.
+Yang membedakan versi Indonesia dan versi Belanda dari versi akademis jelas: versi Indonesia dan versi Belanda diwarnai oleh sentimen dan/atau kepentingan politik masing-masing, sedangkan versi akademik bertujuan untuk memberikan versi yang obyektif dan akurat (bukan berdasarkan sentimen tetapi berdasarkan bukti dan sumber).
+Anda sekarang mungkin pertanyakan versi yang mana yang Anda baca di atas?
+Nah, ikhtisar periode kolonial Indonesia yang disajikan di atas adalah sinopsis dari versi akademik.
+Namun, tidak kalah menariknya untuk memberikan sedikit informasi tentang sejarah penjajahan Indonesia dari sudut pandang Indonesia versus sudut pandang Belanda.
+Dengan versi-versi ini, yang kami maksudkan adalah konsensus umum dan pandangan umum yang diterima oleh bangsa (termasuk rakyat biasa tetapi juga para pejabat pemerintah, dan mereka yang menulis buku-buku sejarah untuk generasi muda, dll.)
+di kedua negara ini.
+Tentunya, versi Indonesia dan versi Belanda ada banyak kesamaan.
+Namun, karena keterlibatan kedua pihak dalam sejarah kolonial ini, ada beberapa perbedaan terkait dengan sentimen dan kepentingan politik di masing-masing negara.
+Misalnya, saat berbicara dengan seorang Indonesia tentang masa penjajahan (berapapun tingkat pendidikan orangnya) ia akan mengatakan bahwa Indonesia dijajahi oleh Belanda selama tiga setengah abad.
+Benarkah ini?
+Sebenarnya tidak terlalu tepat.
+Soalnya, statemen itu mengimplikasikan bahwa Indonesia sudah merupakan negara yang bersatu pada akhir tahun 1500-an atau awal tahun 1600-an.
+Namun, pada kenyataannya, tanah yang sekarang kita kenal sebagai Indonesia dikuasai banyak kerajaan yang tidak memiliki perasaan persaudaraan satu sama lain, apalagi mereka tidak mempunyai sentimen nasionalis, atau rasa persatuan lainnya.
+Faktanya, perang antara kerajaan-kerajaan itu terus terjadi sebelum (hampir) semua kerajaan itu ditaklukkan Belanda.
+Seperti digambarkan di atas, rasa persaudaraan dan nasionalisme di antara bangsa-bangsa Indonesia baru muncul awal abad ke-20.
+Lagipula, seluruh wilayah yang sekarang kita kenal sebagai Indonesia tidak ditaklukkan oleh Belanda pada waktu yang sama (dan kemudian dimiliki Belanda selama 3.5 abad).
+Sebaliknya, ekspansi politik Belanda di Nusantara agak pelan-pelan dan bertahap (makan waktu beberapa abad) sebelum wilayahnya di bawah kendali Belanda (dan di beberapa bagian kendali Belanda itu sangat dangkal, seperti di Aceh).
+Faktanya, baru sekitar tahun 1930-an Belanda kurang lebih memiliki seluruh wilayah dengan perbatasan yang sekarang kita kenal sebagai Indonesia.
+Namun yang harus diakui bahwa beberapa bagian Nusantara memang dijajahi Belanda selama 3.5 abad (misalnya Batavia/Jakarta dan sebagian Maluku).
+Ada bagian lainnya yang dikuasai Belanda selama sekitar dua abad (misalnya sebagian besar pulau Jawa), tetapi sebagian besar Nusantara, secara bertahap, baru ditaklukkan selama abad ke-19 dan awal abad ke-20, dan di banyak daerah tidak pernah ada penduduk asli yang melihat seorang Belanda.
+Kalau gitu, kok ada pandangan bahwa (seluruh) Indonesia dijajahi Belanda selama tiga setengah abad?
+Jawabannya adalah 'politik'.
+Yang jadi jelas dari sinopsis di atas, nasionalisme Indonesia dibentukkan oleh kesadaran para pemuda dan bangsa Indonesia yang beragam itu (apa pun latar belakangnya, etnisnya, budayanya atau agamanya) bahwa mereka memiliki satu musuh bersama-bersama, yaitu para penjajah Belanda.
+Justru karena memiliki satu musuh yang kuat ini, bangsa yang sangat beragam itu sempat bersatu, menjadi bangsa Indonesia.
+Itu juga menjelaskan kenapa - setelah musuhnya itu telah hilang pada tahun 1949 - muncul periode kacau yang berkepanjangan dalam politik dan masyarakat Indonesia antara tahun 1949 dan 1967.
+Dengan musuhnya hilang, tiba-tiba semua perbedaan mendasar antara rakyat Indonesia muncul ke permukaan yang kemudian mengakibatkan pemberontakan (PRRI di Sumatra dan Semesta di Sulawesi), panggilan untuk separatisme (Aceh dan Maluku), dan panggilan untuk mendirikan negara Islam (Darul Islam).
+Hanya ketika sebuah rezim otoriter yang baru, yaitu Orde Baru Suharto, mengambil kendali, kekacauan tersebut jadi hilang (dan, sama seperti waktu penjajahan Belanda, dengan mengorbankan hak asasi manusia).
+Maka demi kepentingan nasionalisme (untuk menjaga kesatuan Indonesia), pemerintah Indonesia (pas setelah kemerdekaan) sengaja tidak menyebutkan (misalnya dalam buku-buku sekolah) bahwa daerah-daerah dan pulau-pulau masing-masing tidak memiliki sejarah yang sama dalam konteks penjajahan.
+Belanda juga punya cukup banyak alasan untuk menggambarkan sejarah kolonial yang berbeda dengan kenyataan.
+Soalnya Belanda selama beberapa dekade terakhir adalah salah satu negara yang menekankan pentingnya hak asasi manusia (HAM).
+Masalahnya sikap ini sangat tidak cocok dengan sejarah kolonialnya yang penuh dengan pelanggaran HAM di Nusantara (beserta di Suriname).
+Oleh karena itu, kekerasan yang dilakukan dalam sejarah kolonialnya tidak disebutkan di buku-buku sekolah yang dibaca murid-murid Belanda di highschool.
+Sebaliknya, periode VOC justru digambarkan sebagai puncak kebanggaan nasional karena - meskipun negara yang sangat kecil di Eropa - Belanda menjadi negara terkaya di dunia pada abad ke-17 ('Zaman Keemasan Belanda'), tidak hanya dalam hal perdagangan dan militer tetapi juga dalam hal seni dan sains.
+Namun, pelanggaran HAM jarang disoroti.
+Contoh yang menarik adalah waktu mantan Perdana Menteri Belanda Jan Peter Balkenende menjadi jengkel saat diskusi dengan Dewan Perwakilan Belanda (Tweede Kamer) pada tahun 2006.
+Menanggapi pandangan pesimistis DPR Belanda tentang masa depan ekonomi Belanda, Balkenende mengatakan "mari, kita optimis, mari kita menjadi berpikiran positif kembali.
+Mentalitas VOC itu!
+Pandangan yang melampaui perbatasan!"
+Ini adalah contoh dari memori selektif yang menandakan rasa bangga yang berasal dari periode VOC.
+Namun, setelah Balkenende mengatakan demikian memang banyak orang politisi Belanda, media Belanda, dan rakyat Belanda yang mengkritik pernyataan Balkenende itu.
+Juga penting untuk disebutkan bahwa makin banyak orang Belanda sadar akan sejarahnya yang penuh kekerasan (termasuk perbudakan).
+Misalnya, patung-patung di Belanda yang memuliakan orang-orang dari masa VOC dan masa kolonial - seperti Jan Pieterszoon Coen dan J.B.
+van Heutsz - telah dibuang atau sangat dikritik oleh penduduk Belanda setempat.
+Kasus menarik lainnya adalah permintaan maaf yang dibuat oleh duta besar Belanda untuk Indonesia Tjeerd de Zwaan pada tahun 2013.
+Dia meminta maaf atas "ekses yang dilakukan oleh pasukan Belanda antara 1945 dan 1949".
+Ini agak luar biasa karena ini pertama kali penjabat Belanda minta maaf soal sejarah penjajahan.
+Namun, belum pernah Belanda meminta maaf atas semua peristiwa kekerasan yang terjadi sebelum 1945!
+Bahkan waktu Raja dan Ratu Belanda, Willem-Alexander dan Maxima, mengunjungi Indonesia pada awal 2020, Willem-Alexander dengan gagap meminta maaf atas kekerasan Belanda yang terjadi pada periode 1945-1949 (bukan yang sebelum 1945).
+Kenapa Belanda menunggu lama sekali sebelum minta maaf soal kekerasan 1945-1949?
+Diasumsikan bahwa para pejabat Belanda tidak ingin meminta maaf karena dapat menyinggung perasaan para veteran Belanda (yang mempertaruhkan nyawa mereka di Indonesia demi negara mereka) dan kerabat para prajurit Belanda yang meninggal pada periode '45 -'49 saat berperang demi negaranya.
+Bahkan, kemungkinan besar pemerintah Belanda takut akan konsekuensi keuangan kalau mengakui pelanggaran HAM lewat permintaan maaf (korban yang masih hidup, atau kerabat mereka, bisa menggugat).
+Masa pendudukan Jepang merupakan masa yang sepi dalam dunia kearsipan, karena pada masa itu hampir tidak mewariskan peninggalan arsip.
+Oleh karena itu, Arsip Nasional RI tidak memiliki khasanah arsip pada masa pendudukan Jepang.
+Lembaga Kearsipan yang pada masa Hindia Belanda bernama Landarchief, pada masa pendudukan Jepang berganti dengan istilah Kobunsjokan yang ditempatkan dibawah Bunkyokyoku.
+Sebagaimana pegawai-pegawai Belanda lainnya, sebagian pegawai Landarchief pun dimasukkan kamp tawanan Jepang.
+Meskipun demikian, pada masa tersebut posisi Landarchief sangat penting bagi orang-orang Belanda yang ingin mendapatkan keterangan asal-usul keturunannya.
+Keterangan dari arsip tersebut diperlukan untuk membebaskan diri dari tawanan Jepang, jika mereka dapat menunjukkan bukti turunan orang Indonesia meski bukan dari hasil pernikahan.
+Secara yuridis, keberadaan lembaga kearsipan Indonesia dimulai sejak diproklamasikan kemerdekaan Indonesia 17 Agustus 1945.
+Namun demikian tidak dipungkiri, bahwa keberadaan dan perkembangan Arsip Nasional RI merupakan hasil dari pengalaman kegiatan dan organisasi kearsipan pada masa pemerintah Kolonial Belanda (landarchief) dan produk-produk kearsipannya.
+Setelah kemerdekaan Republik Indonesia, lembaga kearsipan (landarchief) diambil oleh pemerintah RI dan ditempatkan dalam lingkungan Kementerian Pendidikan Pengajaran dan Kebudayaan, dan diberi nama Arsip Negeri.
+Keberadaan Arsip Negeri ini berlangsung sampai pertengahan tahun 1947 ketika pemerintah NICA datang ke Indonesia.
+Sejak Belanda melancarkan agresi militer yang pertama dan berhasil menduduki wilayah Indonesia di tahun 1947, keberadaan Arsip Negeri diambil alih kembali oleh pemerintah Belanda.
+Nama Lembaga Arsip Negeri berganti lagi menjadi Landsarchief kembali.
+Sebagai pimpinan Landsarchief adalah Prof.W.
+Ph.
+Coolhaas  yang menjabat hingga berdirinya Republik Indonesia Serikat (RIS) dan diakuinya kedaulatan Pemerintah Republik Indonesia oleh Belanda pada akhir tahun 1949.
+Setelah itu lembaga kearsipan kembali ketangan Pemerintah Republik Indonesia.
+Hal tersebut dimaksudkan agar arsip-arsip pemerintah pusat dapat disalurkan ke Arsip Negeri RIS.
+Namun demikian konsep Arsip Negeri itu tidak bertahan lama.
+Pada tanggal 26 April 1950 melalui SK Menteri PP dan K nomor 9052/B, nama Arsip Negeri berubah menjadi Arsip Negara RIS.
+Sedangkan sebagai pimpinan lembaga Arsip Negara tersebut adalah Prof.
+R. Soekanto.
+Prof.
+R. Soekanto merupakan orang asli Indonesia yang pertama kalinya memimpin lembaga kearsipan Indonesia.
+Kepemimpinan Prof.
+R. Soekanto berlangsung selama enam tahun hingga tahun 1957.
+Sebagai penggantinya adalah Drs.
+R. Mohammad Ali, seorang sejarawan yang menulis buku Pengantar Ilmu Sejarah Indonesia.
+Pergantian ini merupakan awal perubahan dasar dalam kepemimpinan di Arsip Negara, karena untuk pertama kalinya istilah Kepala Arsip Negara dipakai untuk jabatan tersebut.
+Nama Arsip Negara secara resmi dipakai hingga tahun 1959.
+Pada masa kepemimpinan Drs.
+R. Mohammad Ali diupayakan berbagai usaha untuk meningkatkan peran dan status lembaga Arsip Negara.
+Langkah pertama yang diambil adalah memasukkan Arsip Nagara dalam Lembaga Sejarah pada Kementerian PP dan K.
+Perubahan itu ditetapkan melalui Surat Keputusan Menteri nomor 130433/5, tanggal 24 Desember 1957.
+Berdasarkan SK menteri PP dan K nomor69626/a/s nama Arsip Negara berganti menjadi Arsip Nasional.
+Perubahan ini berlaku surut semenjak 1 Januari 1959.
+Perubahan kelembagaan Arsip Nasional tidak berhenti sampai disitu.
+Berdasarkan Keputusan Presiden RI nomor 215 tanggal 16 Mei 1961, penyelenggaraan segala urusan Arsip Nasional dipindahkan ke Kementerian Pertama RI, termasuk wewenang, tugas dan kewajiban, perlengkapan materiil dan personalia, serta hak-hak dan kewajiban keuangan dan lain-lain.
+Tugas dan Fungsi Arsip Nasional mengalami perluasan, sejak keluarnya Peraturan Presiden nomor 19 tanggal 26 Desember 1961 tentang Pokok-pokok Kearsipan Nasional.
+Berdasarkan Keputusan Presiden tersebut, tugas dan fungsi arsip Nasional tidak hanya menyelenggarakan kearsipan statis saja, akan tetapi juga terlibat dalam penyelenggaraan kearsipan baru (dinamis).
+Pada tahun 1964 nama Kementerian Pertama Bidang Khusus berganti menjadi Kementerian Kompartimen Hubungan dengan Rakyat (Menko Hubra).
+Perubahan tersebut disesuaikan dengan tugas dan fungsinya dalam mengkoordinasi kementerian-kementerian negara.
+Dengan bergantinya nama kementerian tersebut, otomatis Arsip Nasional berada di bawah kementerian yang baru tersebut.
+Dibawah kementerian ini, Arsip Nasional mendapat tugas untuk melakukan pembinaan arsip.
+Namun demikian, perubahan tersebut tidak mempengaruhi tugas dan fungsiArsip Nasional sebagaimana yang tercantum dalam Peraturan Presiden No.19 tahun 1961.
+Tahun 1967 merupakan suatu periode yang sangat penting bagi Arsip Nasional, karena berdasarkan Keputusan Presiden 228/1967 tanggal 2 Desember1967, Arsip Nasional ditetapkan sebagai Lembaga Pemerintah Non Departemen yang bertanggungjawab langsung kepada Presiden.
+Sementara anggaran pembelanjaannya dibebankan kepada anggaran Sekretariat Negara.
+Penetapan Arsip Nasional sebgai Lembaga Pemerintah Non Departemen diperkuat melalui Surat Pimpinan MPRS No.
+A.9/1/24/MPRS/1967 yang menegaskan, bahwa Arsip Nasional sebagai aparat teknis pemerintah tidak bertentangan dengan UUD 1945, bahkan merupakan penyempurnaan pekerjaan di bawah Presidium Kabinet.
+Usulan-usulan tersebut hingga masa berakhirnya kepemimpinan Drs.R.
+Mohammad Ali (1970) belum terlaksana.
+Oleh karena itu Dra.
+Sumartini, wanita pertama yang menjabat sebagai kepala Arsip Nasional, berjuang untuk melanjutkan cita-cita pemimpin sebelumnya.
+Sejarah pembatikan di Indonesia berkait erat dengan perkembangan kerajaan Majapahit dan penyebaran ajaran Islam di Tanah Jawa.
+Dalam beberapa catatan, pengembangan batik banyak dilakukan pada masa-masa kerajaan Mataram, kemudian pada masa kerjaan Solo dan Yogyakarta.
+Jadi kesenian batik ini di Indonesia telah dikenal sejak zaman kerjaan Majapahit dan terus berkembang kepada kerajaan dan raja-raja berikutnya.
+Adapun mulai meluasnya kesenian batik ini menjadi milik rakyat Indonesia dan khususnya suku Jawa ialah setelah akhir abad ke-XVIII atau awal abad ke-XIX.
+Batik yang dihasilkan ialah semuanya batik tulis sampai awal abad ke-XX dan batik cap dikenal baru setelah perang dunia kesatu habis atau sekitar tahun 1920.
+Adapun kaitan dengan penyebaran ajaran Islam.
+Banyak daerah-daerah pusat perbatikan di Jawa adalah daerah-daerah santri dan kemudian Batik menjadi alat perjaungan ekonomi oleh tokoh-tokoh pedangan Muslim melawan perekonomian Belanda.
+Kesenian batik adalah kesenian gambar di atas kain untuk pakaian yang menjadi salah satu kebudayaan keluarga raja-raja Indonesia zaman dulu.
+Awalnya batik dikerjakan hanya terbatas dalam kraton saja dan hasilnya untuk pakaian raja dan keluarga serta para pengikutnya.
+Oleh karena banyak dari pengikut raja yang tinggal diluar kraton, maka kesenian batik ini dibawa oleh mereka keluar kraton dan dikerjakan ditempatnya masing-masing.
+Daerah pembatikan sekarang di Mojokerto terdapat di Kwali, Mojosari, Betero dan Sidomulyo.
+Diluar daerah Kabupaten Mojokerto ialah di Jombang.
+Pada akhir abad ke-XIX ada beberapa orang kerajinan batik yang dikenal di Mojokerto, bahan-bahan yang dipakai waktu itu kain putih yang ditenun sendiri dan obat-obat batik dari soga jambal, mengkudu, nila tom, tinggi dan sebagainya.
+Obat-obat luar negeri baru dikenal sesudah perang dunia kesatu yang dijual oleh pedagang-pedagang Cina di Mojokerto.
+Batik cap dikenal bersamaan dengan masuknya obat-obat batik dari luar negeri.
+Didalam berkecamuknya clash antara tentara kolonial Belanda dengan pasukan-pasukan pangeran Diponegoro maka sebagian dari pasukan-pasukan Kyai Mojo mengundurkan diri kearah timur dan sampai sekarang bernama Majan.
+Riwayat pembatikan di daerah Jawa Timur lainnya adalah di Ponorogo, yang kisahnya berkaitan dengan penyebaran ajaran Islam di daerah ini.
+Disebutkan masalah seni batik didaerah Ponorogo erat hubungannya dengan perkembangan agama Islam dan kerajaan-kerajaan dahulu.
+Pembuatan batik cap di Ponorogo baru dikenal setelah perang dunia pertama yang dibawa oleh seorang Cina bernama Kwee Seng dari Banyumas.
+Kapal van der Wijck adalah sebuah kapal mewah yang dibuat pada tahun 1921 yang dinamai menurut Gubernur Jenderal Hindia Belanda Carel Herman Aart van der Wijck.
+Kapal ini tenggelam pada tahun 1936 di Laut Jawa dan melatarbelakangi penulisan novel Tenggelamnya Kapal van der Wijck oleh Hamka.
+Novel tersebut diangkat menjadi sebuah film pada tahun 2013.
+Nama Van der Wijck berasal dari nama Gubermur Jendela Hindia yang memerintah tahun 1839 hingga 1899.
+Gubernur tersebut bernama Jonkheer Carel Herman Aart Van Der Wijck.
+Kapal Van de Wijck adalah kapal penumpang yang mewah dan indah.
+Carel Herman merupakan seorang Belanda yang lahir di Ambon pada 29 Maret 1840 dan meninggal di Baarn, 8 Juli 1914.
+Semasa hidupnya, Carel Herman pernah melaksanakan tugas dan operasi “Pengendalian Lombok” di bawah perintah Ratu Emma van Waldeck-Pymont.
+Kapal Van der Wijck memiliki panjang sekitar 97.5 meter dengan lebar 13.4 meter dan tinggi 8.5 meter.
+Kapal ini terbagi menjadi tiga kelas, yakni kelas pertama dengan kapasitas 60 penumpang, kelas dua sebanyak 34 penumpang, dan geladak dengan daya tampung 999 penumpang.
+Kapal Van der Wijck adalah kapal uap milik Koninklijke Paketvaart Maatschappij (KPM) dibuat oleh Maatschappij Fijenoord, Rotterdam tahun 1921.
+Tahun 1921, kapal tersebut berlayar dari Feyenoord, Rotterdam menuju Indonesia.
+Saat itu kapal melayani rute kawasan perairan di Hindia Belanda dan merupakan cikal bakal pelayaran nasional Indonesia (Pelni).
+Saat tenggelam, kapal tersebut dinahkodai oleh B.C.
+Akkerman, nahkoda senior dengan pengalaman selama 25 tahun.
+Selain penumpang, kapal ini pun membawa muatan kayu besi yang rencananya akan dibongkar di pelabuhan Tanjung Priok dan dibawa ke Afrika.
+Pada 20 Oktober 1936, Kapal Van Der Wijck tenggelam saat berlayar dari Bali menuju Semarang dan akan singgah di Surabaya.
+Setiba di Surabaya, kapal tercatat membawa muatan 150 ton besi dan 5 buah konsedor dengan masing-masing seberat 3 ton.
+Pelayaran kapal mewah tersebut berakhir di Perairan Lamongan, Jawa Timur tepatnya di 12 mil dari Pantati Brondong, Lamongan.
+Diduga, kapal-kapal tersebut membawa barang-barang berharga.
+Tercatat 153 penumpang selamat, 58 penumpang tewas, dan 42 lainnya hilang seperti di tulis oleh de Telegraaf pada 22 Oktober 1936.
+Namun, sebenarnya tidak ada angka pasti karena pencatatan tidak sesuai.
+Diperkirakan ada 250 orang yang ada di dalam kapal tersebut.
+Catatan lain menyebutkan jika jumlah penumpang pada saat itu adalah 187 warga pribumi dan 39 warga Eropa.
+Jumlah awak kapalnya terdiri dari seorang kapten, 11 perwira, seorang telegrafis, seorang steward, 5 pembantu kapal dan 80 ABK dari pribumi.
+Surat kabar Australia, The Queenslander yang terbit Kamis 22 Oktober 1936 turut memberitakan tenggelamnya Van der Wijck.
+Koran tersebut menyebut jika kapal sekonyong-konyong miring saat berada 64 kilometer barat daya Surabaya.
+Setelah itu hanya butuh enam menit hingga seluruh badan kapal tenggelam.
+The Queenslander juga menuliskan soal proses evakuasi yang melibatkan banyak orang, dari nelayan, pilot pesawat terbang, hingga kapal Angkatan Laut Belanda.
+Saat operasi penyelamatan, pemerintah Hindia Belanda sempat mengerahkan delapan pesawat udara Dornier dikirim untuk menyelamatkan penumpang.
+Termasuk kapal bantuan dan perahu nelayan setempat turut membantu mengevakuasi korban.
+Sayangnya, bantuan itu tak dapat menyelamatkan penumpang kapal Sebanyak 75 penumpang dinyatakan hilang.
+Namun sang nahkoda, Kapten Akkerman justru selamat dari peristiwa itu.
+Saat kapal tersebut tenggelam, warga yang tinggal di pesisir Pantai Brondong berusaha menyelamatkan para penumpang Kapal Van der Wijck.
+Sebagai ucapan terimakasih kepada warga dan untuk mengenang tenggelamnya kapal mewah tersebut, Pemerintah Hindia Belanda mendirikan Monuman Van der Wijck.
+Monumen berdiri kokoh di kawasan pantai berbentuk seperti pos pemantau setinggi 15 meter berwarna kuning dan biru.
+Terdapat dua prasasti di dinding barat dan timur monumen.
+Prasasti terbuat dari pelat besi bertuliskan dalam bahasa Belanda dan Indonesia.
+Monumen tersebut letaknya dekat dari Jalan raya baik yang menuju ke pelabuhan TPI Brondong atau jalan raya pantai utara tidak jauh dari kawasan Wisata Bahari Lamongan.
+Pramuka singkatan dari Praja Muda Karana yang artinya jiwa muda suka berkarya.
+Organisasi ini ada di setiap tingkatan pendidikan.
+Gerakan Pramuka atau Kepanduan di Indonesia telah dimulai sejak tahun 1923 yang ditandai dengan didirikannya (Belanda)Nationale Padvinderij Organisatie (NPO) di Bandung.
+Sedangkan pada tahun yang sama, di Jakarta didirikan (Belanda)Jong Indonesische Padvinderij Organisatie (JIPO).
+Kedua organisasi cikalbakal kepanduan di Indonesia ini meleburkan diri menjadi satu, bernama (Belanda)Indonesische Nationale Padvinderij Organisatie (INPO) di Bandung pada tahun 1926.
+Gerakan Pramuka atau Kepanduan di Indonesia telah dimulai sejak tahun 1923 yang ditandai dengan didirikannya (Belanda) Nationale Padvinderij Organisatie (NPO) di Bandung.
+Sedangkan pada tahun yang sama, di Jakarta didirikan (Belanda) Jong Indonesische Padvinderij Organisatie (JIPO).
+Kedua organisasi cikal bakal kepanduan di Indonesia ini meleburkan diri menjadi satu, bernama (Belanda)Indonesische Nationale Padvinderij Organisatie (INPO) di Bandung pada tahun 1926.
+Pada tanggal 26 Oktober 2010, Dewan Perwakilan Rakyat mengabsahkan Undang-Undang Nomor 12 Tahun 2010 tentang Gerakan Pramuka.
+Berdasarkan Undang Undang ini, maka Pramuka bukan lagi satu-satunya organisasi yang boleh menyelenggarakan pendidikan kepramukaan.
+Organisasi profesi juga diperbolehkan untuk menyelenggarakan kegiatan kepramukaan.
+Kenyataan sejarah menunjukkan bahwa pemuda Indonesia mempunyai “saham” besar dalam pergerakan perjuangan kemerdekaan Indonesia serta ada dan berkembangnya pendidikan kepanduan nasional Indonesia.
+Dalam perkembangan pendidikan kepanduan itu tampak adanya dorongan dan semangat untuk bersatu, namun terdapat gejala adanya berorganisasi yang Bhinneka.
+Organisasi kepanduan di Indonesia dimulai oleh adanya cabang “Nederlandsche Padvinders Organisatie” (NPO) pada tahun 1912, yang pada saat pecahnya Perang Dunia I memiliki kwartir besar sendiri serta kemudian berganti nama menjadi “Nederlands-Indische Padvinders Vereeniging” (NIPV) pada tahun 1916.
+Organisasi Kepanduan yang diprakarsai oleh bangsa Indonesia adalah Javaansche Padvinders Organisatie; berdiri atas prakarsa S.P.
+Mangkunegara VII pada tahun 1916.
+Kenyataan bahwa kepanduan itu senapas dengan pergerakan nasional, seperti tersebut di atas dapat diperhatikan pada adanya “Padvinder Muhammadiyah” yang pada 1920 berganti nama menjadi “Hizbul Wathan” (HW); “Nationale Padvinderij” yang didirikan oleh Budi Utomo; Syarikat Islam mendirikan “Syarikat Islam Afdeling Padvinderij” yang kemudian diganti menjadi “Syarikat Islam Afdeling Pandu” dan lebih dikenal dengan SIAP, Nationale Islamietische Padvinderij (NATIPIJ) didirikan oleh Jong Islamieten Bond (JIB) dan Indonesisch Nationale Padvinders Organisatie (INPO) didirikan oleh Pemuda Indonesia.
+Hasrat bersatu bagi organisasi kepanduan Indonesia waktu itu tampak mulai dengan terbentuknya PAPI yaitu “Persaudaraan Antara Pandu Indonesia” merupakan federasi dari Pandu Kebangsaan, INPO, SIAP, NATIPIJ dan PPS pada tanggal 23 Mei 1928.
+Federasi ini tidak dapat bertahan lama, karena niat adanya fusi, akibatnya pada 1930 berdirilah Kepanduan Bangsa Indonesia (KBI) yang dirintis oleh tokoh dari Jong Java Padvinders/Pandu Kebangsaan (JJP/PK), INPO dan PPS (JJP-Jong Java Padvinderij).
+PAPI kemudian berkembang menjadi Badan Pusat Persaudaraan Kepanduan Indonesia (BPPKI) pada bulan April 1938.
+Antara tahun 1928-1935 bermuncullah gerakan kepanduan Indonesia baik yang bernapas utama kebangsaan maupun bernapas agama.
+kepanduan yang bernapas kebangsaan dapat dicatat Pandu Indonesia (PI), Padvinders Organisatie Pasundan (POP), Pandu Kesultanan (PK), Sinar Pandu Kita (SPK) dan Kepanduan Rakyat Indonesia (KRI).
+Sedangkan yang bernapas agama Pandu Ansor, Al Wathoni, Hizbul Wathan, Kepanduan Islam Indonesia (KII), Islamitische Padvinders Organisatie (IPO), Tri Darma (Kristen), Kepanduan Asas Katolik Indonesia (KAKI), Kepanduan Masehi Indonesia (KMI).
+Sebagai upaya untuk menggalang kesatuan dan persatuan, Badan Pusat Persaudaraan Kepanduan Indonesia BPPKI merencanakan “All Indonesian Jamboree”.
+Rencana ini mengalami beberapa perubahan baik dalam waktu pelaksanaan maupun nama kegiatan, yang kemudian disepakati diganti dengan “Perkemahan Kepanduan Indonesia Oemoem” disingkat PERKINO dan dilaksanakan pada tanggal 19-23 Juli 1941 di Yogyakarta.
+Pada masa Perang Dunia II, bala tentara Jepang mengadakan penyerangan dan Belanda meninggalkan Indonesia.
+Tahun-tahun sulit dihadapi oleh Pandu Rakyat Indonesia karena serbuan Belanda.
+Bahkan pada peringatan kemerdekaan 17 Agustus 1948 waktu diadakan api unggun di halaman gedung Pegangsaan Timur 56, Jakarta, senjata Belanda mengancam dan memaksa Soeprapto menghadap Tuhan, gugur sebagai martir gerakan kepanduan di Indonesia.
+Di daerah yang diduduki Belanda, Pandu Rakyat dilarang berdiri.
+Keadaan ini mendorong berdirinya perkumpulan lain seperti Kepanduan Putera Indonesia (KPI), Pandu Puteri Indonesia (PPI), Kepanduan Indonesia Muda (KIM).
+Masa perjuangan bersenjata untuk mempertahankan negeri tercinta merupakan pengabdian juga bagi para anggota pergerakan kepanduan di Indonesia, kemudian berakhirlah periode perjuangan bersenjata untuk menegakkan dan mempertahakan kemerdekaan itu, pada waktu inilah Pandu Rakyat Indonesia mengadakan Kongres II di Yogyakarta pada tanggal 20-22 Januari 1950.
+Kongres ini antara lain memutuskan untuk menerima konsep baru, yaitu memberi kesempatan kepada golongan khusus untuk menghidupakan kembali bekas organisasinya masing-masing dan terbukalah suatu kesempatan bahwa Pandu Rakyat Indonesia bukan lagi satu-satunya organisasi kepanduan di Indonesia dengan keputusan Menteri PP dan K nomor 2344/Kab.
+tertanggal 6 September 1951 dicabutlah pengakuan pemerintah bahwa Pandu Rakyat Indonesia merupakan satu-satunya wadah kepanduan di Indonesia, jadi keputusan nomor 93/Bag.A tertanggal 1 Februari 1947 itu berakhir sudah.
+Mungkin agak aneh juga kalau direnungi, sebab sepuluh hari sesudah keputusan Menteri No.
+2334/Kab.
+itu keluar, maka wakil-wakil organisasi kepanduan mengadakan konfersensi di Jakarta.
+Pada saat inilah tepatnya tanggal 16 September 1951 diputuskan berdirinya Ikatan Pandu Indonesia (IPINDO) sebagai suatu federasi.
+Ipindo merupakan federasi bagi organisasi kepanduan putera, sedangkan bagi organisasi puteri terdapat dua federasi yaitu PKPI (Persatuan Kepanduan Puteri Indonesia) dan POPPINDO (Persatuan Organisasi Pandu Puteri Indonesia).
+Kedua federasi ini pernah bersama-sama menyambut singgahnya Lady Baden-Powell ke Indonesia, dalam perjalanan ke Australia.
+Dalam peringatan Hari Proklamasi Kemerdekaan Republik Indonesia yang ke-10 Ipindo menyelenggarakan Jambore Nasional, bertempat di Ragunan, Pasar Minggu pada tanggal 10-20 Agustus 1955, Jakarta.
+Ipindo sebagai wadah pelaksana kegiatan kepanduan merasa perlu menyelenggarakan seminar agar dapat gambaran upaya untuk menjamin kemurnian dan kelestarian hidup kepanduan.
+Seminar ini diadakan di Tugu, Bogor pada bulan Januari 1957.
+Seminar Tugu ini meng-hasilkan suatu rumusan yang diharapkan dapat dijadikan acuan bagi setiap gerakan kepanduan di Indonesia.
+Dengan demikian diharapkan ke-pramukaan yang ada dapat dipersatukan.
+Setahun kemudian pada bulan Novem-ber 1958, Pemerintah RI, dalam hal ini Departemen PP dan K mengadakan seminar di Ciloto, Bogor, Jawa Barat, dengan topik “Penasionalan Kepanduan”.
+Kalau Jambore untuk putera dilaksanakan di Ragunan Pasar Minggu-Jakarta, maka PKPI menyelenggarakan perkemahan besar untuk puteri yang disebut Desa Semanggi bertempat di Ciputat.
+Desa Semanggi itu terlaksana pada tahun 1959.
+Pada tahun ini juga Ipindo mengirimkan kontingennya ke Jambore Dunia di MT.
+Makiling Filipina.
+Gerakan Pramuka lahir pada tahun 1961, jadi kalau akan menyimak latar belakang lahirnya Gerakan Pramuka, orang perlu mengkaji keadaan, kejadian dan peristiwa pada sekitar tahun 1960.
+Dari ungkapan yang telah dipaparkan di depan kita lihat bahwa jumlah perkumpulan kepanduan di Indonesia waktu itu sangat banyak.
+Jumlah itu tidak sepandan dengan jumlah seluruh anggota perkumpulan itu.
+Peraturan yang timbul pada masa perintisan ini adalah Ketetapan MPRS Nomor II/MPRS/1960, tanggal 3 Desember 1960 tentang rencana pembangunan Nasional Semesta Berencana.
+Dalam ketetapan ini dapat ditemukan Pasal 330.  
+yang menyatakan bahwa dasar pendidikan di bidang kepanduan adalah Pancasila.
+eterusnya penertiban tentang kepanduan (Pasal 741) dan pendidikan kepanduan supaya diintensifkan dan menyetujui rencana Pemerintah untuk mendirikan Pramuka (Pasal 349 Ayat 30).
+Kemudian kepanduan supaya dibebaskan dari sisa-sisa Lord Baden Powell (Lampiran C Ayat 8).
+Ketetapan itu memberi kewajiban agar Pemerintah melaksanakannya.
+Karena itulah Pesiden/Mandataris MPRS pada 9 Maret 1961 mengumpulkan tokoh-tokoh dan pemimpin gerakan kepanduan Indonesia, bertempat di Istana Negara.
+Hari Kamis malam itulah Presiden mengungkapkan bahwa kepanduan yang ada harus diperbaharui, metode dan aktivitas pendidikan harus diganti, seluruh organisasi kepanduan yang ada dilebur menjadi satu yang disebut Pramuka.
+Presiden juga menunjuk panitia yang terdiri atas Sri Sultan Hamengku Buwono IX, Menteri P dan K Prof.
+Prijono, Menteri Pertanian Dr.A.
+Azis Saleh dan Menteri Transmigrasi, Koperasi dan Pembangunan Masyarakat Desa, Achmadi.
+Panitia ini tentulah perlu sesuatu pengesahan.
+Dan kemudian terbitlah Keputusan Presiden RI No.112 Tahun 1961 tanggal 5 April 1961, tentang Panitia Pembantu Pelaksana Pembentukan Gerakan Pramuka dengan susunan keanggotaan seperti yang disebut oleh Presiden pada tanggal 9 Maret 1961.
+Ada perbedaan sebutan atau tugas panitia antara pidato Presiden dengan Keputusan Presiden itu.
+Masih dalam bulan April itu juga, keluarlah Keputusan Presiden RI Nomor 121 Tahun 1961 tanggal 11 April 1961 tentang Panitia Pembentukan Gerakan Pramuka.
+Anggota Panitia ini terdiri atas Sri Sultan (Hamengku Buwono IX), Prof.
+Prijono, Dr.
+A. Azis Saleh, Achmadi dan Muljadi Djojo Martono (Menteri Sosial).
+Panitia inilah yang kemudian mengolah Anggaran Dasar Gerakan Pramuka, sebagai Lampiran Keputusan Presiden R.I Nomor 238 Tahun 1961, tanggal 20 Mei 1961 tentang Gerakan Pramuka.
+Pidato Presiden pada tanggal 9 Maret 1961 juga menggariskan agar pada peringatan Proklamasi Kemerdekaan RI Gerakan Pramuka telah ada dan dikenal oleh masyarakat.
+Oleh karena itu Keppres RI No.238 Tahun 1961 perlu ada pendukungnya yaitu pengurus dan anggotanya.
+Menurut Anggaran Dasar Gerakan Pramuka, pimpinan perkumpulan ini dipegang oleh Majelis Pimpinan Nasional (MAPINAS) yang di dalamnya terdapat Kwartir Nasional Gerakan Pramuka dan Kwartir Nasional Harian.
+Badan Pimpinan Pusat ini secara simbolis disusun dengan mengambil angka keramat 17-8-’45, yaitu terdiri atas Mapinas beranggotakan 45 orang di antaranya duduk dalam Kwarnas 17 orang dan dalam Kwarnasri 8 orang.
+Namun dalam realisasinya seperti tersebut dalam Keppres RI No.447 Tahun 1961, tanggal 14 Agustus 1961 jumlah anggota Mapinas menjadi 70 orang dengan rincian dari 70 anggota itu 17 orang di antaranya sebagai anggota Kwarnas dan 8 orang di antara anggota Kwarnas ini menjadi anggota Kwarnari.
+Mapinas diketuai oleh Dr.
+Ir.
+Soekarno, Presiden RI dengan Wakil Ketua I, Sri Sultan Hamengku Buwono IX dan Wakil Ketua II Brigjen TNI Dr.A.
+Aziz Saleh.
+Sementara itu dalam Kwarnas, Sri Sultan Hamengku Buwono IX menjabat Ketua dan Brigjen TNI Dr.A.
+Aziz Saleh sebagai Wakil Ketua merangkap Ketua Kwarnari.
+Gerakan Pramuka secara resmi diperkenalkan kepada seluruh rakyat Indonesia pada tanggal 14 Agustus 1961 bukan saja di Ibu kota Jakarta, tetapi juga di tempat yang penting di Indonesia.
+Di Jakarta sekitar 10.000 anggota Gerakan Pramuka mengadakan Apel Besar yang diikuti dengan pawai pembangunan dan defile di depan Presiden dan berkeliling Jakarta.
+Sebelum kegiatan pawai/defile, Presiden melantik anggota Mapinas, Kwarnas dan Kwarnari, di Istana negara, dan menyampaikan anugerah tanda penghargaan dan kehormatan berupa Panji Gerakan Kepanduan Nasional Indonesia (Keppres No.448 Tahun 1961) yang diterimakan kepada Ketua Kwartir Nasional, Sri Sultan Hamengku Buwono IX sesaat sebelum pawai/defile dimulai.
+Peristiwa perkenalan tanggal 14 Agustus 1961 ini kemudian dilakukan sebagai HARI PRAMUKA yang setiap tahun diperingati oleh seluruh jajaran dan anggota Gerakan Pramuka.
+Bendera merah putih memiliki sejarah yang berkaitan dengan zaman pendudukan Jepang.
+Dikutip dari Kemdikbud, kelahiran bendera merah putih diawali dari janji Jepang untuk memberi kemerdekaan pada Indonesia pada tanggal 7 September 1944.
+Setelah memberikan janjinya, Chuoo Sangi In (badan pembantu kemerdekaan yang beranggotakan orang Indonesia dan Jepang) mengadakan sidang tak resmi pada tanggal 12 September 1944 yang dipimpin oleh Ir.
+Soekarno.
+Sidang tersebut membahas penggunaan bendera dan lagu kebangsaan yang sama di seluruh Indonesia.
+Sidang ini juga menghasilkan panitia bendera merah putih dan panitia lagu Indonesia Raya.
+Dan seperti yang kita semua ketahui, yang menjahit Sang Saka Merah Putih pertama kali adalah ibu Fatmawati.
+Ibu Fatmawati menjahit bendera merah putih ketika beliau baru saja kembali ke Jakarta dari pengasingannya di Bengkulu.
+Pada awalnya, Soekarno meminta Shimizu yang merupakan kepala barisan propaganda Jepang, Sendebu, agar Chaerul Basri mengambil kain dari gudang di jalan Pintu Air untuk diantarkan ke jalan Pegangsaan Timur nomor 56, Jakarta.
+Kain yang digunakan tersebut adalah kain berbahan katun halus berwarna merah putih dan panjangnya 300 cm serta lebarnya 200 cm.
+Bendera ini kemudian digunakan dalam proklamasi kemerdekaan Republik Indonesia pada tanggal 17 Agustus 1945 dan dikibarkan oleh Latief Hendraningrat dan Suhud.
+Selain sejarah dan arti bendera merah putih di atas, ada fakta menarik terkait Sang Saka Merah Putih.
+Bendera merah putih sempat dibagi menjadi dua bagian untuk diselamatkan dari Belanda.
+Saat itu, pada tanggal 4 Januari 1946 para pemimpin Indonesia pindah sementara ke Yogyakarta karena terancam keamanannya di Jakarta.
+Pada saat tersebut, bendera merah putih juga ikut dibawa dan dikibarkan di Gedung Agung.
+Dua tahun selanjutnya, pada 19 Desember 1948, Yogyakarta jatuh ke tangan Belanda.
+Akhirnya, Ir.
+Soekarno memberikan Bendera Pusaka ke tangan ajudannya, Husein Mutahar, untuk diselamatkan.
+Demi keselamatan dari penyitaan Belanda, bendera merah putih dilepas jahitannya sehingga terpisah bagian merah dan putihnya serta dibawa dengan dua tas terpisah.
+Barulah pada Juni 1949, dalam pengasingannya di Bangka, Ir.
+Soekarno menerima kembali bendera merah putih dalam satu kesatuan utuh setelah dijahit kembali oleh Hasan Mutahar dan dibawakan oleh Soejono.
+Menjadi tempat yang sangat mulia dan kerap dijadikan sebagai tempat berziarah oleh seluruh jemaah haji, Gua Hirau merupakan tempat diturunkannya wahyu yang pertama kali kepada Nabi Muhammad SAW yaitu kitab suci Al-Qur'an seperti yang terkandung dalam Surat Al‘alaq 1-5.
+Gua Hirau merupakan, gua yang berlokasi di kota Mekah tepatnya 5 km dari arah timur laut Masjidil Haram, dan terletak di atas gunung tandus dengan batuan yang bernama Jabal An Nur.
+Berziaran ketempat ini, biasanya para jama'ah haji akan menempuh perjalanan yang cukup melelahkan, sebab harus melewati track dakian sekitar 645 m di atas gunung batuan yang memiliki ketinggian sekitar 281 m dari dasar tanah.
+Selain itu jika ingin menuju gua terpencil, setidaknya ada sekitar 1.000 anak tangga yang harus dilalui.
+Berada ditempat tersebut, mengingatkan kita akan sebuah sejarah terpenting dimasa Rasullullah SAW.
+Tepatnya pada tanggal 17 Ramadan 13 tahun sebelum Hijriyah, dimana saat itu Allah SWT menurunkan wahyu pertama kali kepada Rasulullah SAW saat beliau sedang bersemedi di Gua Hirau.
+Seperti yang dilangsir dari kitab Nurul Yakin menjalaskan bahwa, ketika Rasulullah SAW berusia 40 tahun, saat itu diutuslah Rasulullah saw oleh Allah sebagai penyampai kabar gembira, pemberi peringatan serta penyeru kebenaran atas seluruh perintah Allah yang terang benderang menerangi setiap hati manusia.
+Dimana wahyu tersebut dimulai dengan mimpi yang benar-benar nyata dan tidak seorangpun yang ada dalam mimpi tersebut melaikan mimpi yang benar dalam kondisi yang terjaga.
+Kemudian, turunlah ar-Ruhul Amin atau Jibril kepada Nabi saw ketika Beliau saw sedang beribadah di Gua Hira.
+Jibril mengajarkan Nabi saw bagaimana seharusnya Rasulullah saw memimpin manusia ke jalan yang lurus dengan agama yang benar.
+Saat itu juga Malaikat Jibril membisikkan Wahyu pertama dari Allah SWT berupa surat Al-Alaq ayat 1 sampai ayat 5 kepada Nabi Muhammad SAW.
+Jibril mengatakan: Iqra' (bacalah, oleh mu wahai Muhammad).
+Rasulullah menjawab: Aku tidak bisa membaca.
+Maka malaikat Jibril langsung mendekap Nabi Muhammad SAW hingga merasa kepayahan dengan menyampaikan perintah (Iqra') sebanyak tiga kali.
+Seperti yang dijelaskan oleh Abu Hasal 'Ali al-Hasani an-Nadwi, dalam kitabnya Sirah Nabawiyah.
+Setelah kejadian tersebut, Malaikat Jibril akhirnya melepaskan Nabi Muhammad dan menyampaikan firman Allah.
+Proklamasi Kemerdekaan Indonesia diawali dengan peristiwa dijatuhkannya bom atom di kota Hiroshima pada tanggal 6 Agustus 1945 dan Nagasaki pada 9 Agustus 1945 oleh tentara Amerika.
+Hal ini menyebabkan Jepang menyerah tanpa syarat pada sekutu, sehingga kesempatan ini dimanfaatkan oleh para pejuang kemerdekaan untuk memproklamasikan kemerdekan.
+Dalam pelaksanaannya, ada perbedaan pendapat antara golongan tua dan golongan muda.
+Golongan muda ingin proklamasi kemerdekaan segera dilakukan sedangkan golongan tua tidak ingin terburu-buru dalam proklamasi kemerdekaan karena takut akan terjadi pertumpahan darah.
+Golongan tua terdiri dari Ir.
+Soekarno, Mohammad Hatta, Achmad Soebardjo, Mohammad Yamin, Iwa Kusuma, dan Dr.
+Syamsi.
+Golongan muda yang berjuang untuk kemerdekaan Indonesia diantaranya Sukarni, Wikana, Adam Malik, Chaerul Saleh, Darwis, dan Jusuf Kunto.
+Pada 16 Agustus 1945 terjadi peristiwa Rengasdengklok, dimana Ir.
+Soekarno dan Mohammad Hatta diculik oleh para pemuda dan dibawa ke Rengasdengklok dengan tujuan agar Ir.
+Soekarno dan Moh Hatta tidak terpengaruh oleh Jepang dan segera menyatakan kemerdekaan.
+Pada 16 Agustus 1945 pukul 23.00 malam, Ir.
+Soekarno dan rombongannya tiba di Jakarta, sehingga perumusan teks proklamasi dilakukan oleh Ir.
+Soekarno, Moh Hatta dan Achmad Soebardjo di kediaman Laksamana Muda Maeda Tadashi.
+Rumusan teks proklamasi diketik oleh Sayuti Melik dan ditandatangani Ir.
+Soekarno dan Moh Hatta.
+Selanjutnya, bendera merah putih dijahit oleh istri Soekarno yaitu Fatmawati.
+Sejak awal kemunculannya, kapal selam bisa diset galak, yaitu untuk kepentingan perang maupun untuk kepentingan ramah, yaitu untuk riset bawah laut yang menjanjikan petualangan luar biasa.
+David Bushnell, pencipta kapal selam operasional pertama bernama Turtle (1770), lebih tertarik membuat kapal selam untuk kepentingan perang, mengingat saat itu negerinya dilanda konflik (1776)/Perang Kemerdekaan Amerika.
+Saat itu Turtle memang baru bisa sekedar menyelam dan muncul ke permukaan.
+Namun, pada perkembangan selanjutnya, perang demi perang mengantarkan kapal selam menjadi lebih Military Look (berorientasi militer).
+Sebagaimana Armada Kapal selam Jerman Unterseeboot (biasa disebut U-Boot), pada PD I, armada ini telah melengkapi sistem peluncuran torpedo untuk kepentingan perang itu.
+Memang tidak dapat dipungkiri bahwa Inggris adalah pemilik kekuatan laut dengan Navi Seal-nya, tetapi Jerman adalah pemilik senjata Laut tercanggih sepanjang zaman yang pernah mengoptimalkan kapal selamnya untuk menghancurkan musuh-musuhnya dalam PD II.
+Hal ini yang menyebabkan Kapal selam jerman dijuluki ”kapal selam misterius dan mematikan”.
+Tidak banyak yang mengetahui bahwa dibandingkan sejarah pesawat terbang maupun tank, maka sejarah kapal selam sesungguhnya telah dimulai jauh hari sebelumnya dan jauh lebih tua.
+Sejak abad pertengahan, para penemu atau inventor Eropa mulai memikirkan bagaimana kapal dapat menyelam dan timbul kembali dengan dayanya sendiri.
+Tahun 1465, Keyser dari Nurenberg dilaporkan sudah merancang sebuah perahu yang dapat menyelam di air.
+Namun, kapal yang benar-benar dirancang bisa menyelam dan menghindari musuh adalah kapal selam buatan William Bourne tahun 1578.
+Kapal Selam Bourne dibuat dengan rinci, dilengkapi dengan tanki-tanki balas (Ballast) yang dapat diisi dengan air dan dikosongkan lagi untuk mengapung.
+Sayang, rancangan ini baru dituangkan dalam sebuah buku Inventions of Devices, dan belum secara nyata terwujud.
+Hebatnya, sistem tanki tersebut nantinya menjadi suatu kunci penting pada kapal selam.
+Lima puluh tahun kemudian, Inventor Belanda, Cornelis Drebbel mewujudkan kapal selam dengan bentuk seperti dua perahu susun yang ditutup dengan kulit agar kedap air.
+Drebbel tidak menggunakan sistem Balas, melainkan dengan pemberat biasa seperti besi agar perahunya menyelam.
+Tahun 1620 Drebbel mendemonstrasikan kapal selamnya di sungai Thames London.
+Disitu dikabarkan telah memakai sistem pipa dan katup untuk memasukkan udara bersih ke kabin dan mengeluarkan udara kotor.
+Kapal selam milik Drebbel inilah pelopor kapal selam dengan sistem Schnorkel yang dikembangkan orang Belanda tiga abad kemudian.
+Do Son seorang Prancis membuat kapal selam untuk Belanda dalam perang melawan Inggris.
+Kapalnya dibuat di Roterdam, Tahun 1652-1654, diperkuat dengan tombak-tombak besi untuk kemudian ditabrakkan ke kapal musuh.
+Do Son mengklaim kapalnya mampu mengaramkan 100 kapal musuh setiap harinya dan mampu mencapai kepulauan Indonesia yang menjadi jajahan Belanda saat itu hanya ditempuh selama 6 pekan perjalanan.
+Seorang pastor Italia Giovanni Alvonso Borelli tahun 1680 merancang kapal selam yang digerakkan dengan delapan dayung dan memakai kantung-kantung pengapung dari kulit kambing.
+Namun rancangannya itu belum sempat diwujudkannya dan baru terwujud setelah dikembangkan Nathaniel Symons, inventor berkebangsaan Inggris tahun 1747.
+Kapal buatannya diuji cobakan di perairan Sungai Themes dan mampu bertahan didalam air selama 45 menit.
+Seseorang dari Inggris pada tahun 1773 berhasil menyelamkan kapalnya sedalam 30 kaki.
+Ia memakai pemberat batu yang dilepaskan dari dalam kapal.
+Setahun kemudian, kapal keduanya, Plymouth Sound, dapat menyelam sedalam 132 kaki.
+Namun besarnya tekanan air yang semakin dalam menyebabkan kapal Day bersama awak kapal tidak mampu muncul kembali ke permukaan.
+Kapal milik Day tergencet tekanan air dan peristiwa itu merupakan kecelakaan fatal pertama sepanjang sejarah kapal selam.
+Tahun 1776, Pejuang Amerika, David Bushnell membuat Kapal selam Turtle, untuk melawan AL Inggris yang terkuat di dunia.
+Kapal selamnya dirancang untuk menyerang dari dalam air, kemudian melekatkan peledak pada tubuh kapal lawan dengan pemicu yang akan meledak setelah 30 menit.
+Tahun 1776, diawaki Ezra Lee, kapal itu ditugaskan menyerang HMS Eagle Inggris di New York dengan dilengkapi 64 pucuk meriam.
+Sayang, penyerangan itu gagal.
+Tahun 1812-1813 Bushell mencoba meningkatkan kinerja Turtle, sasarannya kali ini HMS Ramillies Inggris di Connecticut.
+Kapal selamnya berusaha melubangi lunas kapal Inggris untuk dipasang peledak, sayangnya gagal lagi.
+Tapi tak dipungkiri, Turtle milik Bushell adalah kapal selam pertama yang terlibat dalam sebuah peperangan.
+Pada abad 18, Kekaguman dan pujian yang tak habis-habis terhadap Turtle telah membawa arsitek perang laut Robert Fulton, Horace Hunley, John Phillip Holland dan Claude Goubet mulai berusaha mengembangkan desain kapal selam dengan membangun konsep dasar Kapal selam yang mereka juluki sebagai monster samudra itu.
+Robert Fulton, Inventor Amerika yang bekerja di Prancis tahun 1798 merancang kapal selam yang sudah menyerupai kapal selam modern sekarang yang diberi nama Nautilus.
+Nama Nautilus sendiri kemudian menjadi favorit bagi kapal selam modern yang selesai dibuat pada tahun 1801.
+Kapal Fulton yang dibiayai langsung oleh Napoleon, kulitnya dilapisi tembaga yang diperkuat besi di beberapa bagian, memakai tanki balas dan kemudi vertikal dan horizontal untuk mengatur kedalaman penyelaman serta arah pelayaran dalam air.
+Kaca-kaca juga dipasang untuk pencahayaan dari luar.
+Pada tanggal 3 Juni 1801 di Sungai Seine, Fulton membekali Nautilus dengan oksigen bertekanan yang disimpan dalam botol-botol.
+Saat itu Prancis sedang berperang dengan Inggris.
+Fulton mengusulkan untuk menghadapi Inggris, harus membuat Nautilus mark II yang lebih besar dan cepat.
+Sayang, Prancis menolak usul tersebut dengan alasan kapal selam sebagai sebuah senjata yang terlalu berbahaya.
+Tahun 1850, Wilhelm Bauer, seorang Jerman membuat Brandtaucher atau ”Penyelam Bakar” yang merupakan perwujudan awal Unterseeboot (U-boot).
+Pada tahap selanjutnya penemuan kapal selam semakin disempurnakan, muncul kapal selam Capt milik Thomas Johnstone, Kapal selam Pioneer karya Horace L Hunley yang digerakkan dengan baling-baling yang diputar tenaga manusia 1856, kapal selam David milik Huley selanjutnya yang menghancurkan kapal New Ironsides, Kapal selam CSS HL Hunley yang menenggelamkan USS Housatonic 17 Februari 1864.
+Inovasi Kapal selam mencapai puncak kegemilangan ketika ditemukan torpedo sebagai sistem senjata bom laut yang mampu bergerak sendiri.
+Giovanni Luppis, AL Austria tahun 1867 membuat perahu berpeledak yang digerakkan dengan baling-baling dan kemudi.
+Temuannya disempurnakan Robert Whitehead, seorang Inggris yang membuat tabung peluncuran torpedo tahun 1868.
+Sejak saat itu teknologi torpedo berkembang dimana-mana dan di”copy” negara Eropa dan Jepang.
+Torpedo pertama kali digunakan pada 1878 saat kapal rusia menggunakan torpedo untuk mengaramkan kapal Turki.
+John Phillip Holland, kebangsaan Irlandia menggunakan torpedo.
+Sejurus kemudian Holland membuat USS Holland pada tahun 1900 yang dibeli AL Amerika, sehingga Amerika merupakan negara kedua setelah Prancis yang menggunakan kapal selam sebagai unsur kekuatan armada laut dengan senjata tiga torpedo dan sepucuk meriam di permukaan airnya.
+Namun negara yang sungguh sungguh berhasil mengeksploitasi kekuatan kapal selam demi kepentingan perang adalah Jerman pada PD I dan II.
+Dengan armada U-boot nya mereka menenggelamkan 5.554 kapal sekutu, dari 372 kapal U-boot mereka hanya kehilangan 178, itupun karena menabrak ranjau laut bukan karena kalah bertempur.
+U-boot Jerman mampu menyerang dengan torpedo, jika muncul ke permukaan mampu membabat dengan Kanon 4 inchi, juga bisa membelah kapal musuh dengan membelah lambung kapal dengan gergaji pada ujung kapalnya, disamping itu Inggris juga tak mampu mendeteksi kehadiran U-boot.
+Pasca PD I dan II, Jerman tidak lagi menjadi penguasa bawah air.
+Sebagai gantinya muncul dua kekuatan baru, Amerika dan Uni Sovyet.
+Keduanya berlomba menciptakan monster laut tersebut dengan bertenaga nuklir dan mampu melontar rudal antar benua.
+Bisa dikatakan saat itu terjadi perang dingin di bawah laut.
+Maka mulai muncul kapal selam berkekuatan nuklir, tidak menggunakan diesel lagi.
+Yaitu pada kapal Streamline, Kursk (1961), milik Rusia, USS George Washington milik Amerika dengam rudal polaris, Tresher (1963), dan USS Scorpion milik Amerika pada 1968.
+Perkembangan kapal selam di Indonesia mengalami kemajuan ketika berhasil meluncurkan SUT.
+Sesuai dengan namanya, SUT merupakan kependekan dari Surface and Under Water Target.
+SUT merupakan nama sebuah torpedo buatan IPTN.
+SUT mampu diluncurkan dari kapal selam atau kapal permukaan.
+Torpedo ini bersifat Guided atau berpemandu.
+Untuk menuju arah sasaran, SUT dapat dikendalikan secara remote baik dari kapal peluncur maupun mampu mencari sendiri dengan fasilitas sensor sonar.
+Dalam mendeteksi sasaran, torpedo SUT dilengkapi dengan sensor yang biasa disebut Homing Head.
+Sensor Homing Head dapat bekerja secara aktif maupun pasif.
+Saat melakukan deteksi aktif, Homing Head memancarkan sonar dan kemudian mengevaluasi pantulan snarnya sehingga diketahui arah dan jarak sasaran yang bersangkutan.
+Dalam melakukan deteksi pasif, Homing Head menerima sonar dari sonar yang dibangkitkan oleh sasarannya.
+Selain fungsi diatas, menurut uraian jurnal ristek, Homing Head juga mempunyai fungsi-fungsi lain, yaitu menerima sinyal mapsys.
+Sinyal mapsys adalah sinyal yang berguna untuk proses peledakan Warhead (Hulu ledak) torpedo secara kira-kira atau bukan karena impak.
+Fungsi lain Homing Head adalah untuk menjalankan kendali proporsional navigasi.
+Toyota Motor Corporation atau umum dikenal dengan Toyota adalah pabrikan otomotif multinasional Jepang yang berkantor pusat di Toyota, Aichi, Jepang.
+Saat ini, Toyota merupakan pabrikan penghasil mobil terbesar di dunia.
+Mungkin berlebihan jika melabeli Toyota sebagai perusahaan otomotif paling terkenal di dunia.
+Namun faktanya, Toyota memiliki pabrik di sebagian besar dunia, memproduksi atau merakit kendaraan untuk pasar lokal di Jepang, Australia, Bangladesh, India, Sri Lanka, Kanada, Indonesia, Polandia, Afrika Selatan, Turki, Kolombia, Inggris Raya, Amerika Serikat, Prancis, Brasil, Portugal, dan yang terbaru, Argentina, Republik Ceko, Meksiko, Malaysia, Thailand, Pakistan, Mesir, China, Vietnam, Venezuela, Filipina, dan Rusia.
+Di samping itu, Tesla mungkin baru-baru ini melampaui Toyota sebagai pembuat mobil paling berharga di dunia.
+Tetapi pabrik pembuat Camry dan Prius itu masih 10 kali lebih besar dari ukuran perusahaan Elon Musk dengan penjualan keseluruhan (275 miliar vs 25 miliar dolar AS) pada 2019.
+Meskipun demikian, Volkswagen masih menjadi pabrik pembuat mobil nomor satu dunia diukur dari pendapatan totalnya, pada 2020.
+Namun dari segi penjualan, Toyota sukses menjual lebih dari 10 juta unit dalam setahun hingga 31 Maret 2020.
+Penjualan mengalami peningkatan di Eropa dan Jepang, sementara agak tenggelam di Amerika Utara dan Asia.
+Pada awalnya, sebagian perusahaan Toyota didukung oleh pemerintah Jepang karena digunakan untuk menciptakan kendaraan militer.
+Selanjutnya, putra Toyoda, Kiichiro Toyoda, mengambil kendali operasi mobil setelah Jepang menghentikan hampir semua impor pada 1936.
+Namun sebelumnya pada 1934, Toyota sudah lebih dulu menciptakan dan memproduksi mesin pertama untuk mobil.
+Dua tahun setelahnya, kendaraan pertama yang ia produksi memiliki dua silinder.
+Yaitu sebuah mobil sedan dengan model Toyoda AA, dirilis pada 1936.
+Desain itu kemudian segera digantikan oleh kendaraan yang meniru desain Chevrolet 65 hp straight-six dengan beberapa fitur yang berasal dari Chrysler Airflow.
+Namun, dua tahun kemudian pada 1937, perusahaan tersebut bubar.
+Berbicara mengenai telepon tidak lengkap jika tidak membicarakan penemu telepon Alexander Graham Bell yang menemukan dan mematenkan telepon pada tanggal 7 Maret 1876.
+Telepon sendiri diciptakan oleh Bell di usia ke-29 tahun saat dirinya bekerja sebagai guru di Pemberton Avenue School for the Deaf Boston, Massachusetts Amerika Serikat.
+Bell terinspirasi dari penemuan telegraf oleh Samuel FB Morse pada tahun 1843.
+Dilansir dari Britannica, Bell mengagumi penemuan telegraf namun juga menemukan kelemahan.
+Pengiriman pesan di telegraf masih secara manual antara stasiun telegraf dan penerima, dan hanya satu pesan yang dapat dikirim pada satu waktu.
+Bell ingin memperbaiki hal ini dengan menciptakan telegraf harmonik yakni perangkat yang menggabungkan aspek telegraf dan pemutar rekaman untuk memungkinkan individu berbicara satu sama lain dari kejauhan.
+Dengan bantuan teknisi mesin asal Boston, Thomas A. Watson Bell mengembangkan sebuah prototipe yang diberi nama telepon.
+Kata telepon sendiri berasal dari bahasa Yunani, yakni “tele” yang artinya “jauh” dan phone yang artinya “suara”.
+Cara kerja telepon buatan Bell berbeda dengan telegraf.
+Cara kerjanya yakni gelombang suara yang dikirim menghasilkan arus listrik dalam intensitas dan frekuensi tertentu akan menggetarkan pelat besi tipis dan lunak yang disebut diafragma.
+Getaran ini ditransfer secara magnetis ke kabel lain yang terhubung ke diafragma di instrumen lain yang jauh.
+Saat diafragma itu bergetar, suara asli akan direplikasi di telinga instrumen penerima atau penerima telepon.
+Usai dipatenkan Bell, telepon pun akhirnya dikembangkan oleh para ilmuwan lain seperti Emil Berliner, Thomas Edison dan lainnya sehingga tercipta generasi pertama telepon yang menggunakan tuas sehingga disebut sebagai telepon engkol yang ada di abad ke-19.
+Awal mula telepon bentuknya adalah yang berbentuk kotak persegi dengan tuas pemutar sehingga disebut juga dengan istilah telepon engkol.
+Sistem telepon engkol ini tidak langsung dapat menghubungkan dua orang sekaligus dan menggunakan kabel.
+Pengguna telepon harus memutar tuas dan akan terhubung dengan petugas sentral telepon.
+Selanjutnya petugas sentral telepon akan bertanya nomor tujuan telepon dan menyambungkan dua kabel di papan hubung dan memutar nomor.
+Bila telepon tujuan berada di sentral telepon berbeda, operator di sentral 1 akan menelepon operator di sentral 2 untuk menghubungkan panggilan.
+Pada tahun 1936 sejarah telepon berlanjut.
+Muncul telepon dengan model rotary dial atau telepon diciptakan oleh American Telephone and Telegraph (AT&T).
+Telepon tersebut dirancang oleh Henry Dreyfuss dan menjadi telepon putar yang berisi deretan angka.
+Mengutip dari About AT&T, peralihan dari telepon engkol ke telepon putar menandakan berakhirnya layanan sentral telepon.
+Artinya pengguna telepon bisa saling terhubung langsung dengan memutar nomor di telepon.
+Perubahan itu sangat dramatis bagi pelanggan.
+Mereka beralih dari mengangkat gagang telepon dan meminta bantuan operator ke memanggil nomor itu sendiri,” tulis About AT&T.
+Bentuk telepon putar sendiri adalah gagang telepon dan deretan angka yang disusun secara melingkar.
+Di telepon putar tersedia urutan nomor yang tersusun melingkar dari angka 1 sampai angka 0.
+Dalam menggunakan telepon tersebut pengguna harus memasukkan jarinya ke lubang nomor dan memutar sampai batas putaran.
+Sistem yang digunakan telepon putar masih sinyal analog, yang mengubah gelombang suara jadi gelombang listrik.
+Sejarah evolusi telepon lainnya pada tanggal 18 November 1963 dimana AT&T menghadirkan inovasi dalam industri telepon dengan menghadirkan sistem Dual-tone multi-frequency signaling (DTMF) yakni sistem sinyal yang menggunakan pita frekuensi suara.
+Masa pendudukan Jepang di Nusantara yang saat itu masih bernama Hindia Belanda dimulai pada tahun 1942 dan berakhir pada tanggal 17 Agustus 1945 seiring dengan Proklamasi Kemerdekaan Indonesia oleh Soekarno dan M. Hatta.
+Pada Mei 1940, awal Perang Dunia II, Belanda diduduki oleh Jerman Nazi.
+Hindia Belanda mengumumkan keadaan siaga dan mengalihkan ekspor untuk Kekaisaran Jepang ke Amerika Serikat dan Inggris.
+Hindia Belanda mengumumkan keadaan siaga dan mengalihkan ekspor untuk Kekaisaran Jepang ke Amerika Serikat dan Inggris.
+Negosiasi dengan Jepang yang bertujuan untuk mengamankan persediaan bahan bakar pesawat gagal pada Juni 1941, dan Jepang memulai penaklukan hampir seluruh wilayah Asia Tenggara pada bulan Desember di tahun yang sama.
+Pada bulan yang sama, faksi dari Sumatra menerima bantuan Jepang untuk mengadakan revolusi terhadap pemerintahan Belanda.
+Pasukan Belanda yang terakhir dikalahkan Jepang pada Maret 1942.
+Pengalaman dari penguasaan Jepang di Nusantara sangat bervariasi, tergantung tempat seseorang tinggal dan status sosial orang tersebut.
+Bagi yang tinggal di daerah yang dianggap penting dalam peperangan, mereka mengalami siksaan, terlibat perbudakan seks, penahanan tanpa alasan dan hukuman mati, dan kejahatan perang lainnya.
+Orang Belanda dan campuran Indonesia-Belanda merupakan target sasaran dalam penguasaan Jepang.
+Selama masa pendudukan, Jepang juga membentuk badan persiapan kemerdekaan yaitu BPUPKI (Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia).
+Badan ini bertugas membentuk persiapan-persiapan pra-kemerdekaan dan membuat dasar negara dan digantikan oleh PPKI yang bertugas menyiapkan kemerdekaan.
+Bulan Oktober 1941, Jenderal Hideki Tojo menggantikan Konoe Fumimaro sebagai Perdana Menteri Jepang.
+Sebenarnya, sampai akhir tahun 1940, pimpinan militer Tambelang tidak menghendaki melawan beberapa negara sekaligus, namun sejak pertengahan tahun 1941, mereka melihat bahwa Amerika Serikat, Inggris, dan Belanda harus dihadapi sekaligus apabila mereka ingin menguasai sumber daya alam di Asia Tenggara.
+Apalagi setelah Amerika melancarkan embargo minyak bumi yang sangat dibutuhkan untuk industri di Jepang maupun untuk keperluan perang.
+Admiral Isoroku Yamamoto, Panglima Angkatan Laut Jepang, mengembangkan strategi perang yang sangat berani, yaitu mengerahkan seluruh kekuatan armadanya untuk dua operasi besar.
+Seluruh potensi Angkatan Laut Jepang mencakup 6 kapal induk (pengangkut pesawat tempur), 10 kapal perang, 18 kapal penjelajah berat, 20 kapal penjelajah ringan, 4 kapal pengangkut perlengkapan, 112 kapal perusak, 65 kapal selam serta 2.274 pesawat tempur.
+Kekuatan pertama, yaitu 6 kapal induk, 2 kapal perang, 11 kapal perusak serta lebih dari 1.400 pesawat tempur, tanggal 7 Desember 1941, akan menyerang secara mendadak basis Armada Pasifik Amerika Serikat di Pearl Harbor di kepulauan Hawaii.
+Sedangkan kekuatan kedua, sisa kekuatan Angkatan Laut yang mereka miliki, mendukung Angkatan Darat dalam Operasi Selatan, yaitu penyerangan atas Filipina dan Malaya/Singapura, yang akan dilanjutkan ke Jawa.
+Kekuatan yang dikerahkan ke Asia Tenggara adalah 11 Divisi Infantri yang didukung oleh 7 resimen tank serta 795 pesawat tempur.
+Seluruh operasi direncanakan selesai dalam 150 hari.
+Admiral Chuichi Nagumo memimpin armada yang ditugaskan menyerang Pearl Harbor.
+Pada pagi 7 Desember 1941, 360 pesawat terbang yang terdiri dari pembom pembawa torpedo serta sejumlah pesawat tempur diberangkatkan dalam dua gelombang.
+Pengeboman Pearl Harbor ini berhasil menghancurkan 188 pesawat dan merusak delapan kapal perang Angkatan Laut Amerika Serikat.
+Selama dua jam pengeboman, 2.402 orang Amerika tewas dan 1.283 lainnya luka-luka.
+Namun tiga kapal induk Amerika selamat, karena pada saat itu tidak berada di Pearl Harbor.
+Tanggal 8 Desember 1941, Kongres Amerika Serikat menyatakan perang terhadap Jepang.
+Tiga hari kemudian, Jerman menyatakan perang terhadap Amerika Serikat.
+Kondisi ini menjadikan Amerika Serikat tergabung dengan pasukan Sekutu dan terlibat pertempuran di Eropa dan Asia Pasifik.
+Perang Pasifik ini berpengaruh besar terhadap gerakan kemerdekaan negara-negara di Asia Timur, termasuk Indonesia.
+Tujuan Jepang menyerang dan menduduki Hindia Belanda adalah untuk menguasai sumber-sumber alam, terutama minyak bumi, guna mendukung potensi perang Jepang serta mendukung industrinya.
+Jawa dirancang sebagai pusat penyediaan bagi seluruh operasi militer di Asia Tenggara, dan Sumatra sebagai sumber minyak utama.
+Sejak awal datang ke Indonesia pada tahun 1942 hingga melenggang keluar Indonesia pada tahun 1945, Jepang banyak memproduksi film-film propaganda.
+Kala itu, tidak sedikit masyarakat Indonesia yang terpengaruh.
+Terlebih dengan bumbu dan gorengan semangat anti sekutu yang mana Belanda termasuk di dalamnya dan telah lama menjajah Indonesia.
+Ketika sekutu masuk ke Indonesia, film-film propaganda produksi Jepang ini disita.
+Pada Agustus 2020, Nederlandsch Instituut voor Beeld en Geluid merilis film-film propaganda Jepang hasil sitaan sekutu yang diproduksi selama Perang Pasifik ketika Hindia-Belanda diduduki oleh Jepang ke Wikimedia Commons.
+Hal ini karena Jepang ingin mengambil hati rakyat Indonesia untuk membantu mereka dalam perang Asia Timur Raya.
+Pemberontakan dipimpin seorang ulama muda Tengku Abdul Jalil, guru mengaji di Cot Plieng, Lhokseumawe.
+Usaha Jepang untuk membujuk sang ulama tidak berhasil, sehingga Jepang melakukan serangan mendadak di pagi buta sewaktu rakyat sedang melaksanakan salat Subuh.
+Dengan persenjataan sederhana/seadanya rakyat berusaha menahan serangan dan berhasil memukul mundur pasukan Jepang untuk kembali ke Lhokseumawe.
+Begitu juga dengan serangan kedua, berhasil digagalkan oleh rakyat.
+Baru pada serangan terakhir (ketiga) Jepang berhasil membakar masjid sementara pemimpin pemberontakan (Teuku Abdul Jalil) berhasil meloloskan diri dari musuh, namun akhirnya tertembak saat sedang salat.
+Perlawanan fisik ini terjadi di pesantren Sukamanah Singaparna Tasikmalaya, Jawa Barat di bawah pimpinan KH.
+Zainal Mustafa, tahun 1943.
+Dia menolak dengan tegas ajaran yang berbau Jepang, khususnya kewajiban untuk melakukan Seikerei setiap pagi, yaitu memberi penghormatan kepada Kaisar Jepang dengan cara membungkukkan badan ke arah matahari terbit.
+Kewajiban Seikerei ini jelas menyinggung perasaan umat Islam Indonesia karena termasuk perbuatan syirik/menyekutukan Tuhan.
+Selain itu diapun tidak tahan melihat penderitaan rakyat akibat tanam paksa.
+Saat utusan Jepang akan menangkap, KH  Zainal Mustafa telah mempersiapkan para santrinya yang telah dibekali ilmu bela diri untuk mengepung dan mengeroyok tentara Jepang, yang akhirnya mundur ke Tasikmalaya.
+Jepang memutuskan untuk menggunakan kekerasan sebagai upaya untuk mengakhiri pembangkangan ulama tersebut.
+Pada tanggal 25 Februari 1944, terjadilah pertempuran sengit antara rakyat dengan pasukan Jepang setelah salat Jumat.
+Meskipun berbagai upaya perlawanan telah dilakukan, namun KH.
+Zainal Mustafa berhasil juga ditangkap dan dibawa ke Tasikmalaya kemudian dibawa ke Jakarta untuk menerima hukuman mati dan dimakamkan di Ancol.
+Peristiwa Indramayu terjadi bulan April 1944 disebabkan adanya pemaksaan kewajiban menyetorkan sebagian hasil padi dan pelaksanaan kerja paksa yang telah mengakibatkan penderitaan rakyat yang berkepanjangan.
+Pemberontakan ini dipimpin oleh Haji Madriyas dan kawan-kawan di desa Karang Ampel, Sindang, Kabupaten Indramayu.
+Pasukan Jepang sengaja bertindak kejam terhadap rakyat di kedua wilayah (Lohbener dan Sindang) agar daerah lain tidak ikut memberontak setelah mengetahui kekejaman yang dilakukan pada setiap pemberontakan.
+Teuku Hamid adalah seorang perwira Giyugun, bersama dengan satu pleton pasukannya melarikan diri ke hutan untuk melakukan perlawanan.
+Ini terjadi pada bulan November 1944.
+Menghadapi kondisi tersebut, pemerintah Jepang melakukan ancaman akan membunuh para keluarga pemberontak jika tidak mau menyerah.
+Kondisi tersebut memaksa sebagian pasukan pemberontak menyerah, sehingga akhirnya dapat ditumpas.
+Di daerah Aceh lainnya timbul pula upaya perlawanan rakyat seperti di Kabupaten Berenaih yang dipimpin oleh kepala kampung dan dibantu oleh satu regu Giyugun (perwira tentara sukarela), namun semua berakhir dengan kondisi yang sama yakni berhasil ditumpas oleh kekuatan militer Jepang dengan sangat kejam.
+Perlawanan PETA di Blitar merupakan perlawanan yang terbesar di Jawa.
+Tetapi dengan tipu muslihat Jepang melalui Kolonel Katagiri (Komandan pasukan Jepang), pasukan PETA berhasil ditipu dengan pura-pura diajak berunding.
+Empat perwira PETA dihukum mati dan tiga lainnya disiksa sampai mati.
+Sedangkan Syodanco Supriyadi tidak diketahui keberadaannya hingga akhirnya dinyatakan menghilang.
+Perlawanan ini dipimpin oleh Perwira Gyugun Teuku Hamid.
+Latar belakang perlawanan ini karena sikap Jepang yang angkuh dan kejam terhadap rakyat pada umumnya dan prajurit Indonesia pada khususnya.
+Perlawanan ini dipimpin oleh pemimpin regu (Bundanco), Kusaeri bersama rekan-rekannya.
+Kusaeri divonis hukuman mati tetapi tidak terlaksana karena Jepang terdesak oleh Sekutu.
+Perlawanan rakyat yang dipimpin oleh Pang Suma berkobar di Kalimantan Barat.
+Pang Suma adalah pemimpin suku Dayak yang besar pengaruhnya di kalangan suku-suku di daerah Tayan dan Meliau.
+Perlawanan ini bersifat gerilya untuk mengganggu aktivitas Jepang di Kalimantan.
+Perlawanan ini dipimpin oleh Nimrod.
+Ketika Sekutu sudah mendekat maka memberi bantuan senjata kepada pejuang sehingga perlawanan semakin seru.
+Nimrod dihukum pancung oleh Jepang untuk menakut-nakuti rakyat.
+Tetapi rakyat tidak takut dan muncullah seorang pemimpin gerilya yakni S. Papare.
+Perlawanan ini dipimpin oleh Simson.
+Dalam perlawanan rakyat di Papua, terjadi hubungan kerja sama antara gerilyawan dengan pasukan penyusup Sekutu sehingga rakyat mendapatkan modal senjata dari Sekutu.
+Kelompok Sutan Syahrir di daerah Jakarta dan Jawa Barat dengan cara menyamar sebagai pedagang nanas di Sindanglaya.
+Kelompok Sukarni, Adam Malik dan Pandu Wiguna.
+Mereka berhasil menyusup sebagai pegawai kantor pusat propaganda Jepang Sendenbu (sekarang kantor berita Antara).
+Kelompok Syarif Thayeb, Eri Sudewo dan Chairul Saleh.
+Mereka adalah kelompok mahasiswa dan pelajar.
+Kelompok Mr.
+Achmad Subardjo, Sudiro dan Wikana.
+Mereka adalah kelompok gerakan Kaigun (AL) Jepang.
+Jepang merebut Sabah.
+Jepang merebut Brunei.
+Serangan udara Jepang pertama atas Ambon.
+Jepang mulai menginvasi Indonesia di Kalimantan (Tarakan) dan Sulawesi (Manado).
+Jepang merebut Tarakan.
+Van Mook melakukan perjalanan darurat ke Amerika Serikat, meminta tambahan pasukan, dan agar Hindia Belanda tidak dilupakan dalam pertahanan Sekutu.
+Jepang merebut Manado.
+Jen Wavell dari Inggris mengambil alih komando atas ABDACOM, komando gabungan Sekutu pertama (Australia, Inggris, Belanda, Amerika) di dalam perang.
+Agen-agen Aceh kembali dari Malaya dengan janji-janji dukungan Jepang dalam melawan Belanda.
+Jepang merebut Balikpapan meskipun terdapat serangan balasan dari Belanda dan AS.
+Jepang merebut Kendari di Sulawesi.
+Jepang menyerang Ambon.
+Pasukan-pasukan KNIL dan Australia menghancurkan pasokan agar tidak jatuh ke tangan Jepang.
+Kota Ambon direbut dalam tempo 24 jam.
+Pertempuran berlanjut hingga 2 Februari.
+Sejumlah 90 persen pasukan pertahanan Australia menjadi korban, banyak di antaranya yang dibantai pada Februari setelah ditawan.
+Dalam pertempuran di Laut Jawa dekat Surabaya yang berlangsung selama tujuh jam, Angkatan Laut Sekutu dihancurkan, kapal-kapal perusak Amerika lolos ke Australia.
+Sekutu kehilangan lima kapal perangnya, sedangkan Jepang hanya menderita kerusakan pada satu kapal perusaknya (Destroyer).
+Rear Admiral Karel Willem Frederik Marie Doorman, Komandan Angkatan Laut Hindia Belanda, yang baru dua hari sebelumnya, tanggal 25 Februari 1942 ditunjuk menjadi Tactical Commander armada tentara Sekutu ABDACOM, tenggelam bersama kapal benderanya De Ruyter.
+Dalam pertempuran di Laut Jawa dekat Surabaya yang berlangsung selama tujuh jam, Angkatan Laut Sekutu dihancurkan, kapal-kapal perusak Amerika lolos ke Australia.
+Sekutu kehilangan lima kapal perangnya, sedangkan Jepang hanya menderita kerusakan pada satu kapal perusaknya (Destroyer).
+Tanggal 28 Februari 1942, Tentara Angkatan Darat ke-16 di bawah pimpinan Letnan Jenderal Hitoshi Imamura mendarat di tiga tempat di Jawa.
+Pertama adalah pasukan Divisi ke-2 mendarat di Merak,Banten, kedua adalah Resimen ke-230 di Eretan Wetan, dekat Indramayu dan yang ketiga adalah Divisi ke-48 beserta Resimen ke-56 di Kragan.
+Ketiganya segera menggempur pertahanan tentara Belanda.
+Setelah merebut Pangkalan Udara Kalijati (sekarang Lanud Suryadarma), Letnan Jenderal Imamura membuat markasnya di sana.
+Imamura memberikan ultimatum kepada Belanda, bahwa apabila tidak menyerah, maka tentara Jepang akan menghancurkan tentara Belanda.
+Pada Maret 1942, pasukan-pasukan Sekutu di Jawa diberitahukan oleh mata-mata bahwa suatu kekuatan Jepang sejumlah 250.000 sedang mendekati Bandung, sementara kenyataannya kekuatannya hanya sepersepuluh jumlah itu.
+Informasi yang keliru itu mungkin merupakan bagian dari alasan mengapa Sekutu menyerah di Jawa.
+Belanda sesungguhnya memindahkan kaum Komunis yang ditahan di kamp-kamp penjara di Hindia Belanda, sebagian dari mereka sejak 1926, ke penjara-penjara di Australia ketika Jepang tiba.
+Pada 9 Maret 1942, Gubernur Jenderal Jonkheer Tjarda van Starkenborgh Stachouwer bersama Letnan Jenderal Hein ter Poorten, Panglima Tertinggi Tentara India-Belanda datang ke Kalijati dan dimulai perundingan antara Pemerintah Hindia Belanda dengan pihak Tentara Jepang yang dipimpin langsung oleh Letnan Jenderal Imamura.
+Imamura menyatakan, bahwa Belanda harus menandatangani pernyataan menyerah tanpa syarat.
+Letnan Jenderal ter Poorten, mewakili Gubernur Jenderal menanda-tangani pernyataan menyerah tanpa syarat.
+Dengan demikian secara de facto dan de jure, seluruh wilayah bekas Hindia Belanda sejak itu berada di bawah kekuasaan dan administrasi Jepang.
+Hari itu juga, tanggal 9 Maret Jenderal Hein ter Poorten memerintahkan kepada seluruh tentara Hindia Belanda untuk juga menyerahkan diri kepada balatentara Kekaisaran Jepang.
+Para penguasa yang lain, segera melarikan diri.
+Dr.
+Hubertus Johannes van Mook, Wakil Gubernur Jenderal untuk Hindia Belanda bagian timur, Dr.
+Charles Olke van der Plas, Gubernur Jawa Timur, melarikan diri ke Australia.
+Jenderal Ludolf Hendrik van Oyen, perwira Angkatan Udara Kerajaan Belanda melarikan diri dan meninggalkan isterinya di Bandung.
+Tentara KNIL yang berjumlah sekitar 20.000 di Jawa yang tidak sempat melarikan diri ke Australia ditangkap dan dipenjarakan oleh tentara Jepang.
+Sedangkan orang-orang Eropa lain dan juga warganegara Amerika Serikat, diinternir.
+Banyak juga warga sipil tersebut yang dipulangkan kembali ke Eropa.
+Secara resmi Jepang telah menguasai Indonesia sejak tanggal 8 Maret 1942, ketika Panglima Tertinggi Pemerintah Hindia Belanda menyerah tanpa syarat di Kalijati, Subang.
+Jepang tanpa banyak menemui perlawanan yang berarti berhasil menduduki Indonesia.
+Bahkan, bangsa Indonesia menyambut kedatangan balatentara Jepang dengan perasaan senang, perasaan gembira dan disambut baik karena akan membebaskan bangsa Indonesia dari belenggu penjajahan bangsa Belanda.
+Pada April 1942, sekitar 200 tentara Sekutu yang telah melarikan diri ke bukit-bukit di Jawa Timur dan terus berperang, ditangkap oleh Jepang di bawah perintah Imamura.
+Mereka dikumpulkan dan dimasukkan ke kandang-kandang ternak dari bambu, dibawa dengan kereta-kereta api terbuka ke Surabaya, lalu dibawa ke laut dan dilemparkan ke ikan-ikan hiu, sementara masih berada di dalam kandang-kandang bambu itu.
+Imamura dinyatakan bersalah atas kekejaman ini oleh sebuah peradilan militer Australia setelah perang.
+Tiga orang pegawai Radio Hindia Belanda dihukum mati karena memainkan lagu kebangsaan Belanda pada 18 Maret, setelah menyerahnya Belanda.
+Pilihan satu-satunya yang dimiliki Soekarno dan Hatta adalah pura-pura bekerja sama dengan Jepang.
+Tujuan akhirnya, sudah tentu, bukanlah untuk mendukung Jepang, melainkan untuk mendapatkan kemerdekaan untuk Indonesia.
+Belakangan, Belanda yang kembali akan mencoba untuk menuduh Soekarno sebagai kolaborator Jepang guna mendapatkan dukungan Inggris dalam menghadapi republik Indonesia yang baru terbentuk.
+Sjahrir memimpin gerakan di bawah tanah dari rumah kakak perempuannya di Cipanas, dekat Bogor.
+Informasi sering kali dan dengan diam-diam dibagikan Soekarno, yang mendapatkannya dari lingkaran dalam Jepang, dan Sjahrir.
+Pada mulanya, propaganda Jepang kedengaran seperti perbaikan dibandingkan dengan pemerintahan Belanda.
+Setelah itu, pasukan-pasukan Jepang mulai mencuri makanan dan menangkapi orang untuk dijadikan pekerja paksa, sehingga pandangan bangsa Indonesia terhadap mereka mulai berbalik.
+PPKI membentuk sebuah pemerintahan sementara dengan Soekarno sebagai Presiden dan Hatta sebagai Wakil Presiden.
+Piagam Jakarta yang memasukkan kata "Islam" di dalam sila Pancasila, dihilangkan dari mukadimah konstitusi yang baru.
+Pada 22 Agustus Jepang mengumumkan mereka menyerah di depan umum di Jakarta.
+Jepang melucuti senjata mereka dan membubarkan PETA Dan Heiho.
+Banyak anggota kelompok ini yang belum mendengar tentang kemerdekaan.
+Soekarno mengirimkan pesan radio pertama ke seluruh negeri Indonesia.
+Badan Keamanan Rakyat, angkatan bersenjata Indonesia yang pertama mulai dibentuk dari bekas anggota PETA dan Heiho.
+Beberapa hari sebelumnya, beberapa batalion PETA telah diberitahu untuk membubarkan diri.
+Rancangan konstitusi bentukan PPKI yang telah diumumkan pada 18 Agustus, ditetapkan sebagai UUD 45.
+Soekarno dan Hatta secara resmi diangkat menjadi Presiden dan Wakil Presiden.
+PPKI kemudian berubah nama menjadi KNIP (Komite Nasional Indonesia Pusat).
+KNIP ini adalah lembaga sementara yang bertugas sampai pemilu dilaksanakan.
+Pemerintahan Republik Indonesia yang baru, Kabinet Presidensial, mulai bertugas pada 31 Agustus.
+Sesuai dengan perjanjian Wina pada tahun 1942, bahwa negara-negara sekutu bersepakat untuk mengembalikan wilayah-wilayah yang kini diduduki Jepang pada pemilik koloninya masing-masing bila Jepang berhasil diusir dari daerah pendudukannya.
+Menurut Sekutu sebagai pihak yang memenangkan Perang Dunia II, Lord Mountbatten sebagai Komandan Tertinggi Sekutu di Asia Tenggara adalah orang yang diserahi tanggung jawab kekuasaan atas Sumatra dan Jawa.
+Tentara Australia diberi tanggung jawab terhadap Kalimantan dan Indonesia bagian Timur.
+Pada 23 Agustus 1945 tentara Belanda mendarat di Sabang, Aceh.
+15 September 1945, tentara sekutu tiba di Jakarta, ia didampingi Dr Charles van der Plas, wakil Belanda pada Sekutu.
+Kehadiran tentara sekutu ini, diboncengi NICA (Netherland Indies Civil Administration - pemerintahan sipil Hindia Belanda) yang dipimpin oleh Dr Hubertus J van Mook.
+Penerapan sistem Autarki (daerah yang harus memenuhi kebutuhan sendiri dan kebutuhan perang).
+Sistem ini diterapkan di setiap wilayah ekonomi.
+Contoh Jawa menjadi 17 daerah, Sumatra 3 daerah, dan Meinsefu (daerah yang diperintah Angkatan Laut) 3 daerah.
+Selain kebijakan politik di atas, pemerintah Militer Jepang juga melakukan perubahan dalam birokrasi pemerintahan, diantaranya adalah pembentukan organisasi pemerintahan di tingkat pusat dengan membentuk Departemen dan pembentukan Cou Sang In/dewan penasehat.
+Kegiatan ekonomi diarahkan untuk kepentingan perang maka seluruh potensi sumber daya alam dan bahan mentah digunakan untuk industri yang mendukung mesin perang.
+Jepang menyita seluruh hasil perkebunan, pabrik, Bank dan perusahaan penting.
+Banyak lahan pertanian yang terbengkelai akibat titik berat kebijakan difokuskan pada ekonomi dan industri perang.
+Kondisi tersebut menyebabkan produksi pangan menurun dan kelaparan serta kemiskinan meningkat drastis.
+Jepang menerapkan sistem pengawasan ekonomi secara ketat dengan sanksi pelanggaran yang sangat berat.
+Pengawasan tersebut diterapkan pada penggunaan dan peredaran sisa-sisa persediaan barang.
+Pengendalian harga untuk mencegah meningkatnya harga barang.
+Pengawasan perkebunan teh, kopi, karet, tebu dan sekaligus memonopoli penjualannya.
+Pembatasan teh, kopi dan tembakau, karena tidak langsung berkaitan dengan kebutuhan perang.
+Monopoli tebu dan gula, pemaksaan menanam pohon jarak dan kapas pada lahan pertanian dan perkebunan merusak tanah.
+Menerapkan sistem ekonomi perang dan sistem autarki (memenuhi kebutuhan daerah sendiri dan menunjang kegiatan perang).
+Konsekuensinya tugas rakyat beserta semua kekayaan dikorbankan untuk kepentingan perang.
+Hal ini jelas amat menyengsarakan rakyat baik fisik maupun material.
+Pada tahun 1944, kondisi politis dan militer Jepang mulai terdesak, sehingga tuntutan akan kebutuhan bahan-bahan perang makin meningkat.
+Untuk mengatasinya pemerintah Jepang mengadakan kampanye penyerahan bahan pangan dan barang secara besar-besaran melalui Jawa Hokokai dan Nagyo Kumiai (koperasi pertanian), serta instansi resmi pemerintah.
+Dampak dari kondisi tersebut, rakyat dibebankan menyerahkan bahan makanan 30% untuk pemerintah, 30% untuk lumbung desa dan 40% menjadi hak pemiliknya.
+Sistem ini menyebabkan kehidupan rakyat semakin sulit, gairah kerja menurun, kekurangan pangan, gizi rendah, penyakit mewabah melanda hampir di setiap desa di pulau Jawa salah satunya: Wonosobo (Jateng) angka kematian 53,7% dan untuk Purworejo (Jateng) angka kematian mencapai 224,7%.
+Bisa Anda bayangkan bagaimana beratnya penderitaan yang dirasakan bangsa Indonesia pada masa Jepang (bahkan rakyat dipaksa makan makanan hewan seperti keladi gatal, bekicot, umbi-umbian).
+Pada aspek militer ini, Anda akan memahami bahwa badan-badan militer yang dibuat Jepang semata-mata karena kondisi militer Jepang yang semakin terdesak dalam perang Pasifik.
+Memasuki tahun kedua pendudukannya (1943), Jepang semakin intensif mendidik dan melatih pemuda-pemuda Indonesia di bidang militer.
+Hal ini disebabkan karena situasi di medan pertempuran (Asia – Pasifik) semakin menyulitkan Jepang.
+Mulai dari pukulan Sekutu pada pertempuran laut di Midway (Juni 1942) dan sekitar Laut Karang (Agustus ’42 – Februari 1943).
+Kondisi tersebut diperparah dengan jatuhnya Guadalacanal yang merupakan basis kekuatan Jepang di Pasifik (Agustus 1943).
+Masa Pendudukan Jepang di Indonesia adalah masa yang sangat berpengaruh bagi perkembangan Indonesia, selain itu hampir tidak adanya tantangan yang berarti kepada Belanda sebelumnya.
+Dalam masanya yang singkat itu, Jepang membawa dampak yang positif dan juga membawa dampak yang negatif bagi bangsa Indonesia pada umumnya.
+Pada umumnya kebanyakan beranggapan masa pendudukan Jepang adalah masa-masa yang kelam dan penuh penderitaan.
+Akan tetapi tidak semuanya itu benar, ada beberapa kebijakan pemerintah pendudukan Jepang yang memberikan dampak positif, terutama dalam pembentukan nasionalisme Indonesia dan pelatihan militer bagi pemuda Indonesia.
+Situasi di atas membuat Jepang melakukan konsolidasi kekuatan dengan menghimpun kekuatan dari kalangan pemuda dan pelajar Indonesia sebagai tenaga potensial yang akan diikutsertakan dalam pertempuran menghadapi Sekutu.
+Penghapusan semua organisasi politik dan pranata sosial warisan Hindia Belanda yang sebenarnya banyak diantaranya yang bermanfaat bagi kemajuan ilmu pengetahuan, sosial, ekonomi, dan kesejahteraan warga.
+Rōmusha, mobilisasi rakyat Indonesia (terutama warga Jawa) untuk kerja paksa dalam kondisi yang tidak manusiawi.
+Penghimpunan segala sumber daya seperti sandang, pangan, logam, dan minyak demi kepentingan perang oleh Jepang.
+Akibatnya, banyak rakyat yang menderita kelaparan.
+Krisis ekonomi yang sangat parah karena pencetakan uang pendudukan secara besar-besaran sehingga menyebabkan terjadinya inflasi.
+Kebijakan self sufficiency (kawasan mandiri) yang menyebabkan terputusnya hubungan ekonomi antar daerah.
+Kebijakan fasis pemerintah militer Jepang yang menyebar polisi khusus dan intelijen di kalangan rakyat sehingga menimbulkan ketakutan.
+Pemerintah Jepang bebas melanggar hak asasi manusia dengan menginterogasi, menangkap, bahkan menghukum mati siapa saja yang dicurigai atau dituduh sebagai mata-mata atau anti-Jepang tanpa proses pegadilan.
+Pembatasan pers sehingga tidak ada pers yang independen, semuanya di bawah pengawasan Jepang.
+Terjadinya kekacauan situasi dan kondisi keamanan yang parah seperti maraknya perampokan, pemerkosaan dan lain-lain.
+Pelarangan terhadap buku-buku berbahasa Belanda dan Inggris yang menyebabkan pendidikan yang lebih tinggi terasa mustahil.
+Banyak guru-guru yang dipekerjakan sebagai pejabat-pejabat pada masa itu yang menyebabkan kemunduran standar pendidikan secara tajam.
+Diperbolehkannya bahasa Indonesia untuk menjadi bahasa komunikasi nasional dan menyebabkan bahasa Indonesia dikukuhkan sebagai bahasa nasional.
+Jepang mendukung semangat anti-Belanda, sehingga mau tak mau ikut mendukung semangat nasionalisme Indonesia.
+Antara lain menolak pengaruh-pengaruh Belanda, misalnya perubahan nama Batavia menjadi Jakarta.
+Untuk mendapatkan dukungan rakyat Indonesia, Jepang mendekati pemimpin nasional Indonesia seperti Soekarno dengan harapan agar Soekarno mau membantu Jepang memobilisasi rakyat Indonesia.
+Pengakuan Jepang ini mengukuhkan posisi para pemimpin nasional Indonesia dan memberikan mereka kesempatan memimpin rakyatnya.
+Dalam bidang ekonomi, didirikannya Kumyai yaitu koperasi yang bertujuan untuk kepentingan bersama.
+Mendirikan sekolah-sekolah seperti SD 6 tahun, SMP 3 tahun, dan SMA 3 tahun.
+Pembentukan strata masyarakat hingga tingkat paling bawah yaitu rukun tetangga (RT) atau Tonarigumi.
+Diperkenalkan suatu sistem baru bagi pertanian yaitu line system (sistem pengaturan bercocok tanam secara efisien) yang bertujuan untuk meningkatkan produksi pangan.
+Dibentuknya BPUPKI dan PPKI untuk mempersiapkan kemerdekaan Indonesia.
+Dari sini muncullah ide Pancasila.
+Jepang membuat program latihan dan mempersenjatai pemuda-pemuda Indonesia demi kepentingan Jepang.
+Dan oleh para pemuda Indonesia, hal ini dijadikan modal untuk berperang menghadapi Jepang nantinya, serta melawan kembalinya pemerintah kolonial Belanda.
+Dalam pendidikan dikenalkannya sistem Nipon-sentris dan diperkenalkannya kegiatan upacara dalam sekolah.
+Perang Dunia I membuat perubahan besar pada peta politik, dengan kekalahan Blok Sentral, termasuk Austria-Hongaria, Kekaisaran Jerman, dan Kesultanan Utsmaniyah; dan perebutan kekuasaan oleh Bolshevik di Rusia pada tahun 1917.
+Sementara itu, negara-negara Sekutu yang menang seperti Prancis, Belgia, Italia, Yunani, dan Rumania memperoleh wilayah baru, dan negara-negara baru tercipta setelah runtuhnya Austria-Hongaria, Kekaisaran Rusia, dan Kesultanan Utsmaniyah.
+Perang Dunia II mengakibatkan kematian sekitar 55 juta orang di seluruh dunia.
+Perang ini adalah konflik terbesar dan paling destruktif sepanjang sejarah.
+Jerman memulai Perang Dunia II dengan menginvasi Polandia pada tanggal 1 September 1939.
+Inggris dan Prancis meresponsnya dengan menyatakan perang terhadap Jerman.
+Pasukan Jerman menginvasi Eropa barat pada musim semi tahun 1940.
+Dengan dukungan dari Jerman, Uni Soviet menduduki negara-negara Baltik pada bulan Juni 1940.
+Italia, anggota Blok Poros (negara yang bersekutu dengan Jerman), ikut terjun dalam perang pada tanggal 10 Juni 1940.
+Dari tanggal 10 Juli hingga 31 Oktober 1940, Nazi terlibat dalam perang udara di langit Inggris dan akhirnya kalah.
+Perang ini disebut Pertempuran Britania.
+Setelah mengamankan wilayah Balkan dengan menginvasi Yugoslavia dan Yunani pada tanggal 6 April 1941, pasukan Jerman dan para sekutunya menginvasi Uni Soviet pada tanggal 22 Juni 1941, dan ini berarti melanggar secara langsung Pakta Jerman-Soviet.
+Pada bulan Juni dan Juli 1941, Jerman juga menduduki negara -negara Baltik.
+Pemimpin Soviet Joseph Stalin kemudian menjadi pemimpin utama Sekutu pada masa perang untuk melawan Jerman Nazi dan sekutu blok Porosnya.
+Selama musim panas dan musim gugur tahun 1941, pasukan Jerman semakin merangsek masuk ke Uni Soviet.
+Pada tanggal 6 Desember 1941, pasukan Soviet melancarkan serangan balasan hebat.
+Keesokan harinya, pada tanggal 7 Desember 1941, Jepang (salah satu kekuatan blok Poros) mengebom Pearl Harbor, Hawaii, sehingga menyebabkan Amerika Serikat terjun ke dalam kancah peperangan dan bersekutu dengan Inggris Raya dan Uni Soviet.
+Setelah mengamankan wilayah Balkan dengan menginvasi Yugoslavia dan Yunani pada tanggal 6 April 1941, pasukan Jerman dan para sekutunya menginvasi Uni Soviet pada tanggal 22 Juni 1941, dan ini berarti melanggar secara langsung Pakta Jerman-Soviet.
+Pada bulan Mei 1942, Angkatan Udara Kerajaan Inggris menyerang kota Cologne di Jerman dengan ribuan pesawat pengebom, dan untuk pertama kalinya membuat penduduk Jerman ikut merasakan perang ini.
+Selama tiga tahun berikutnya, angkatan udara Sekutu secara sistematis mengebom pabrik industri dan kota-kota di seluruh Reich, sehingga pada tahun 1945 kota-kota di Jerman hanya tinggal reruntuhan.
+Di front timur, selama musim panas tahun 1942, Jerman dan blok Porosnya kembali menyerang Uni Soviet, dengan tujuan merebut Stalingrad di Sungai Volga, serta kota Baku dan ladang minyak Kaukasia.
+Serangan Jerman terhenti di kedua medan perang tersebut pada akhir musim panas 1942.
+Pada bulan November, pasukan Soviet melancarkan serangan balasan di Stalingrad dan pada tanggal 2 Februari 1943, Angkatan Darat Keenam Jerman menyerah kepada tentara Soviet.
+Pasukan Jerman melancarkan satu serangan lagi di Kursk pada bulan Juli 1943, yang merupakan pertempuran tank terbesar dalam sejarah, tetapi pasukan Soviet menundukkan serangan itu dan memegang dominasi militer yang terus dipertahankan selama masa peperangan.
+Pada tanggal 6 Juni 1944 (Hari-H), sebagai bagian dari operasi militer besar-besaran, lebih dari 150.000 tentara Sekutu mendarat di Prancis, dan Prancis dibebaskan pada akhir Agustus.
+Pada tanggal 11 September 1944, pasukan A.S.
+pertama menyeberang masuk ke Jerman, sebulan setelah pasukan Soviet melintasi perbatasan timur.
+Pada pertengahan Desember, Jerman melancarkan serangan balasan di Belgia dan Prancis utara yang dikenal sebagai Pertempuran Bulge, namun gagal.
+Angkatan udara Sekutu menyerang pabrik-pabrik industri Nazi, seperti pabrik yang berada di kamp Auschwitz (meskipun begitu, kamar gas tak pernah dijadikan sasaran).
+Pada bulan Juli 1943, pasukan Sekutu mendarat di Sisilia dan pada bulan September merapat di pantai daratan utama Italia.
+Setelah Dewan Agung Partai Fasis Italia melepaskan jabatan perdana menteri Italia Benito Mussolini (sekutu Hitler), militer Italia mengambil alih dan melakukan negosiasi untuk menyerah kepada pasukan Anglo-Amerika pada tanggal 8 September.
+Pasukan Jerman yang ditugaskan di Italia merebut kendali atas separuh dari wilayah peninsula bagian utara, dan terus melanjutkan perlawanan.
+Mussolini, yang telah ditangkap oleh pihak militer Italia, diselamatkan oleh komando SS Jerman pada bulan September dan mendirikan rezim boneka neo-Fasis (di bawah pengawasan Jerman) di Italia utara.
+Pasukan Jerman terus menguasai Italia utara hingga menyerah pada tanggal 2 Mei 1945.
+Pangeran Franz Ferdinand adalah putra mahkota kerajaan Austria-Hongaria pada saat itu.
+Sehingga, sosoknya dianggap sebagai ancaman bagi kelompok revolusioner Serbia yang wilayahnya merupakan bagian dari Austria-Hongaria.
+Pada 28 Juni 1914 sang pangeran bersama istrinya, Sophie, melakukan inspeksi pasukan kekaisaran yang ditempatkan di Bosnia dan Herzegovina.
+Dia dan Sophie ditembak mati di mobil mereka oleh seorang revolusioner Serbia berusia 19 tahun, Gavrilo Princip.
+Tragedi ini menyebabkan krisis kekuatan politik di Eropa, terutama bagi Austria-Hongaria dan Rusia yang menjadi aliansi Serbia.
+Berbagai ahli sejarah sepakat kalau insiden ini merupakan latar belakang Perang Dunia 1.
+Tidak satupun dari mereka ingin mundur dan tampak lemah.
+Khawatir pertarungan akan pecah di Rusia, Austria-Hongaria meminta bantuan ke Jerman, yang menjanjikan dukungan jika Austria-Hongaria menggunakan kekuatan melawan Serbia.
+Dukungan Jerman mendorong Austria-Hongaria untuk menyatakan perang terhadap Serbia pada 28 Juli.
